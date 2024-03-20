@@ -9,19 +9,19 @@
 <body>
   <!--NAVBAR-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+    <div class="container mx-2">
       <a href="#" class="navbar-brand">Genshin Companion</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
-      <div class="navbar-collapse collapse mx-auto py-2" id="navmenu">
-        <ul class="navbar-nav">
+      <div class="navbar-collapse nav-primary collapse mx-auto" id="navmenu">
+        <ul class="navbar-nav py-2">
           <li class="nav-item">
-            <button class="btn navbar-btn btn-dark" type="button" id="homeButton">Home</button>
+            <a href="#" class="nav-link px-4"  id="homeButton">Home</a>
           </li>
           <li class="nav-item">
-            <button class="btn navbar-btn btn-dark" type="button" id="charactersButton">Characters</button>
+            <a href="#" class="nav-link px-4"  id="charactersButton">Characters</a>
           </li>
           <li class="nav-item">
-            <button class="btn navbar-btn btn-dark" type="button">Home</button>
+            <a href="#" class="nav-link px-4"  id="somethingButton">Meta Slut Team Comps</a>
 
           </li>
         </ul>
@@ -30,7 +30,7 @@
   </nav>
   <!--BODY-->
   <section class="bg-light text-dark p-3 invisible" id="charactersSection">
-    <div class="container">
+    <div class="container ms-0">
       <img src="img/Amber_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="amber icon">
       <img src="img/Amber_Icon.webp" class="img-thumbnail characterPortrait" alt="amber icon">
     </div>
@@ -49,8 +49,6 @@
       function resetButtonColors(){
       }
       homeButton.addEventListener("click", function(){
-        homeButton.classList.remove("btn-dark");
-        homeButton.classList.add("btn-light");
         charactersSection.classList.add("invisible");
       });
       charactersButton.addEventListener("click", function(){
