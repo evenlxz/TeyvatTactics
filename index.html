@@ -6,36 +6,80 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:#f2f2f2;">
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container mx-2">
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid mx-2">
       <a href="#" class="navbar-brand">Genshin Companion</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
       <div class="navbar-collapse nav-primary collapse mx-auto" id="navmenu">
         <ul class="navbar-nav py-2">
           <li class="nav-item">
-            <a href="#" class="nav-link px-4"  id="homeButton">Home</a>
+            <a class="btn btn-outline-dark text-secondary flex-fill" role="button" id="homeButton">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link px-4"  id="charactersButton">Characters</a>
+            <a href="#" class="btn btn-outline-dark text-secondary" role="button"  id="charactersButton">Characters</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link px-4"  id="somethingButton">Meta Slut Team Comps</a>
-
+            <a href="#" class="btn btn-outline-dark text-secondary" role="button" id="abyssButton">Abyss</a>
           </li>
         </ul>
+        
       </div>
+
+      <form class="form-inline">
+        <ul class="navbar-nav py-2 ">
+          <li class="nav-item me-2">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-dark text-secondary" type="submit">Search</button>
+          </li>
+        </ul>
+      </form>
     </div>
+      
   </nav>
   <!--BODY-->
-  <section class="bg-light text-dark p-3 invisible" id="charactersSection">
+  <!--Home Section-->
+  <section class=" text-white p3" id="homeSection">
+    <div class="container text-black p-4 m-2 border rounded justify-content-end text-center" style="max-width: 50%; background-color:white;">
+      <h1 class=""> Welcome to Genshin Companion </h1>
+      <h3 class="display-10">Your home for everything Genshin Impact</h3>
+    </div>
+    <div class="container text-black p-4 m-2 text-center border rounded" style="max-width: 25%; background-color:white;">
+      <h3>Talent Domains</h3>
+    </div>
+
+  </section>
+
+
+
+  <!--Character Section-->
+  <section class="bg-light text-dark p-3 d-none" id="charactersSection">
     <div class="container ms-0">
       <img src="img/Amber_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="amber icon">
       <img src="img/Amber_Icon.webp" class="img-thumbnail characterPortrait" alt="amber icon">
     </div>
 
   </section>
+  <!--Character Section-->
+  <section>
+    <div class="bg-light text-dark p-3 d-none" id="abyssSection">
+      <div class="container ms-0">
+        <p>Recommended Teams: </p>
+        <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+        <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+        <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+        <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+      </div>
+
+
+
+    </div>
+  </section>
+
   
    
     <script src="script.js"> </script>
@@ -43,17 +87,30 @@
     <script>
       const homeButton = document.getElementById("homeButton");
       const charactersButton = document.getElementById("charactersButton");
+      const abyssButton = document.getElementById("abyssButton");
+      
 
       const charactersSection = document.getElementById("charactersSection");
-      
-      function resetButtonColors(){
-      }
-      homeButton.addEventListener("click", function(){
-        charactersSection.classList.add("invisible");
-      });
-      charactersButton.addEventListener("click", function(){
-        charactersSection.classList.remove("invisible");
+      const homeSection = document.getElementById("homeSection");
+      const abyssSection = document.getElementById("abyssSection");
 
+      homeButton.addEventListener("click", function(){
+        charactersSection.classList.add("d-none");
+        abyssSection.classList.add("d-none");
+        homeSection.classList.remove("d-none");
+      });
+
+      charactersButton.addEventListener("click", function(){
+        homeSection.classList.add("d-none");
+        abyssSection.classList.add("d-none");
+        charactersSection.classList.remove("d-none");
+
+      });
+      abyssButton.addEventListener("click", function(){
+
+        homeSection.classList.add("d-none");
+        charactersSection.classList.add("d-none");
+        abyssSection.classList.remove("d-none");
       });
 
 
