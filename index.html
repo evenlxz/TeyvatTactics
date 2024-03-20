@@ -8,20 +8,19 @@
 </head>
 <body class="mx-5"style="background-color:#f2f2f2; padding-top: 65px; ">
   <!--NAVBAR-->
-
   <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid mx-2">
-      <a href="#" class="navbar-brand">Genshin Companion</a>
+      <a href="#" class="navbar-brand ms-3">Genshin Companion</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
       <div class="navbar-collapse nav-primary collapse mx-auto" id="navmenu">
         <ul class="navbar-nav py-2">
-          <li class="nav-item">
+          <li class="nav-item mx-2">
             <a class="btn btn-outline-dark text-secondary flex-fill" role="button" id="homeButton">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mx-2">
             <a href="#" class="btn btn-outline-dark text-secondary" role="button"  id="charactersButton">Characters</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mx-2">
             <a href="#" class="btn btn-outline-dark text-secondary" role="button" id="abyssButton">Abyss</a>
           </li>
         </ul>
@@ -42,42 +41,133 @@
       
   </nav>
   <!--BODY-->
-  <div class="container bg-primary" style="min-height: 1000px;">
-  <!--Home Section-->
-  <section class=" text-white p3" id="homeSection">
-    <div class="container text-black p-4 m-2 border rounded justify-content-end text-center" style="max-width: 50%; background-color:white;">
-      <h1 class=""> Welcome to Genshin Companion </h1>
-      <h3 class="display-10">Your home for everything Genshin Impact</h3>
+  <div class="row">
+    <div class="col-sm">
+      COL1
     </div>
-    <div class="container text-black p-4 m-2 text-center border rounded" style="max-width: 25%; background-color:white;">
-      <h3>Talent Domains</h3>
-    </div>
-
-  </section>
-
-
-  
-    <!--Character Section-->
-    <section class="bg-light text-dark p-3 d-none" id="charactersSection">
-      <p>this is an ad</p>
-      <div class="container ms-5">
-        <img src="img/Amber_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="amber icon">
-        <img src="img/Amber_Icon.webp" class="img-thumbnail characterPortrait" alt="amber icon">
-      </div>
-    </section>
-    <!--Character Section-->
-    <section>
-      <div class="bg-light text-dark p-3 d-none" id="abyssSection">
-        <div class="container ms-0">
-          <p>Recommended Teams: </p>
-          <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
-          <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
-          <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
-          <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+    <div class="container col-9" style="min-height: 1000px; background-color: white">
+      <!--Home Section-->
+      <section class="row" id="homeSection">
+        <div class="container col-sm text-black mt-2 text-center border rounded ml-auto" style="max-width: 50%; background-color:white;">
+          <h1 class=""> Welcome to Genshin Companion</h1>
+          <h3 class="display-10">Your home for everything Genshin Impact</h3>
         </div>
+        <div class="container col-8 text-black  mt-2 text-center border rounded mr-auto" style="max-width: 35%; background-color:white;">
+          <table class="table table-bordered">
+            <!--mon/thurs talents-->
+            <thead>
+              <tr>
+                <th scope="col">Monday/Thursday Talent Books</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Freedom (Mondstadt)</td>
+                <td scope="row"></td>
+              </tr>
+              <tr>
+                <td scope="row">Prosperity (Liyue)</td>
+              </tr>
+              <tr>
+                <td scope="row">Transience (Inazuma)</td>
+              </tr>
+              <tr>
+                <td scope="row">Admonition (Sumeru)</td>
+              </tr>
+              <tr>
+                <td scope="row">Equity (Fontaine)</td>
+              </tr>
+            </tbody>
+            </table>
+      
+             <!--tues/fri talents-->
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Tuesday/Friday Talent Books</th>
+              </tr>
+            </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">Resistance (Mondstadt)</td>
+                </tr>
+                <tr>
+                  <td scope="row">Diligence (Liyue)</td>
+                </tr>
+                <tr>
+                  <td scope="row">Elegance (Inazuma)</td>
+                </tr>
+                <tr>
+                  <td scope="row">Ingenuity (Sumeru)</td>
+                </tr>
+                <tr>
+                  <td scope="row">Justice (Fontaine)</td>
+               </tr>
+            </tbody>
+            </table>
+            <!--wed/sat talents-->
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Wednesday/Saturday Talent Books</th>
+              </tr>
+            <tbody>
+              <tr>
+                <td scope="row">Ballad (Mondstadt)</td>
+              </tr>
+              <tr>
+                <td scope="row">Gold (Liyue)</td>
+              </tr>
+              <tr>
+                <td scope="row">Light (Inazuma)</td>
+              </tr>
+              <tr>
+                <td scope="row">Praxis (Sumeru)</td>
+              </tr>
+              <tr>
+                <td scope="row">Order (Fontaine)</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+
+
+
+
+
+          </table>
+        </div>
+      </section>
+    
+        <!--Character Section-->
+        <section class="bg-light text-dark p-3 d-none" id="charactersSection">
+          
+          <div class="container ms-5">
+            <img src="img/Amber_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="amber icon">
+            <img src="img/Amber_Icon.webp" class="img-thumbnail characterPortrait" alt="amber icon">
+          </div>
+        </section>
+    
+        <!--Abyss Section-->
+        <section>
+          <div class="bg-light text-dark p-3 d-none" id="abyssSection">
+            <div class="container ms-0">
+              <p>Recommended Teams: </p>
+              <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+              <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+              <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+              <img src="img/Dehya_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="dehya icon">
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+      <div class="col-sm">
+        COL2
+      </div>
   </div>
+  
  
 
   
