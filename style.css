@@ -3,9 +3,21 @@
     height: 100px;
 }
 .smallCharacterPortrait{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .lighterGray{
     background-color: lightGray;
+}
+.talentTable{
+    overflow-wrap: break-word;
+
+}
+.talentTable td{
+    text-align: left;
+    justify-content:left;
+
+
 }

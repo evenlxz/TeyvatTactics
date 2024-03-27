@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body class="mx-5"style="background-color:#f2f2f2; padding-top: 65px; ">
+<body class="mx-5 bg-secondary"style="padding-top: 65px; ">
   <!--NAVBAR-->
-  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark border-bottom border-dark border-2">
     <div class="container-fluid mx-2">
       <a href="#" class="navbar-brand ms-3">Genshin Companion</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
@@ -45,110 +45,229 @@
     <div class="col-sm">
       COL1
     </div>
-    <div class="container col-9" style="min-height: 1000px; background-color: white">
+    <div class="container col-9 bg-dark" style="min-height: 1000px;"">
       <!--Home Section-->
       <section class="row" id="homeSection">
-        <div class="col-sm text-black mt-2 text-center border rounded ml-auto" style="max-width: 50%; background-color:white;">
-          <h1 class=""> Welcome to Genshin Companion</h1>+
+        <div class="col-sm text-light mt-2 text-center rounded ml-auto bg-dark" style="max-width: 50%;">
+          <h1 class=""> Welcome to Genshin Companion</h1>
           <h3 class="display-10">Your home for everything Genshin Impact</h3>
         </div>
-        <div class="col-8 text-black  mt-2 text-center border rounded mr-auto" style="max-width: 35%; background-color:white;">
+        <div class="col-8 text-black  mt-2 text-center rounded mr-auto bg-dark" style="max-width: 35%;">
 
-          <table class="table table-bordered" style="overflow-wrap: break-word;">
+          <table class="table table-dark talentTable">
             <!--mon/thurs talents-->
             <thead>
               <tr>
-                <th scope="col" colspan="9" class="">Monday/Thursday Talent Books</th>
+                <th scope="col" colspan="2" class="font-weight-bold">Monday/Thursday Talent Books</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td scope="row" style="">Freedom (Mondstadt)</td>
+                <td scope="row" class="align-middle">Freedom</br> (Mondstadt)</td>
                 <td scope="row">
-                  <img src="img/Aether_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Aether_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Amber_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Barbara_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Sucrose_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Tartaglia_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Diona_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
+                  <img src="img/Aether_Anemo.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Aether_Geo.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Amber.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Barbara.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Sucrose.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Tartaglia.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Diona.png" class="smallCharacterPortrait rounded" alt="amber icon">
                 </td>
               </tr>
               <tr>
                 
               </tr>
               <tr>
-                <td scope="row">Prosperity (Liyue)</td>
+                <td scope="row" class="align-middle">Prosperity</br> (Liyue)</td>
                 <td scope="row">
-                  <img src="img/Aether_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Gaming_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Keqing_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Ningguang_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Qiqi_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Shenhe_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Xiao_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
-                  <img src="img/Yelan_Icon.webp" class="smallCharacterPortrait" alt="amber icon">
+                  <img src="img/Aether_Geo.png" class="smallCharacterPortrait  rounded" alt="amber icon">
+                  <img src="img/Gaming.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Keqing.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Ningguang.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Qiqi.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Shenhe.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Xiao.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Yelan.png" class="smallCharacterPortrait rounded" alt="amber icon">
                   
                 </td>
               </tr>
               <tr>
-                <td scope="row">Transience (Inazuma)</td>
+                <td scope="row"class="align-middle">Transience</br> (Inazuma)</td>
+                  <td scope="row">
+                  <img src="img/Yoimiya.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Thoma.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Aether_Electro.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Sangonomiya_Kokomi.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Shikanoin_Heizou.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Kirara.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                 </td>
               </tr>
               <tr>
-                <td scope="row">Admonition (Sumeru)</td>
+                <td scope="row"class="align-middle">Admonition</br> (Sumeru)</td>
+                <td scope="row">
+                  <img src="img/Cyno.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Aether_Dendro.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Tighnari.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Candace.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Faruzan.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                 </td>
+                  
               </tr>
               <tr>
-                <td scope="row">Equity (Fontaine)</td>
+                <td scope="row"class="align-middle">Equity</br> (Fontaine)</td>
+                <td scope="row">
+                  <img src="img/Lyney.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Neuvillette.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Navia.png" class="smallCharacterPortrait rounded" alt="amber icon">
+                 </td>
               </tr>
             </tbody>
             </table>
       
              <!--tues/fri talents-->
-          <table class="table table-bordered">
+          <table class="table table-dark talentTable">
             <thead>
               <tr>
-                <th scope="col" rowspan="2">Tuesday/Friday Talent Books</th>
+                <th scope="col" colspan="2" class="font-weight-bold">Tuesday/Friday Talent Books</th>
               </tr>
             </thead>
               <tbody>
                 <tr>
-                  <td scope="row">Resistance (Mondstadt)</td>
+                  <td scope="row"class="align-middle">Resistance</br> (Mondstadt)</td>
+                  <td scope="row">
+                    <img src="img/Aether_Anemo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Geo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Jean.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Diluc.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Razor.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Bennett.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Noelle.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Mona.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Eula.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                  </td>
+                 
                 </tr>
                 <tr>
-                  <td scope="row">Diligence (Liyue)</td>
+                  <td scope="row"class="align-middle">Diligence</br> (Liyue)</td>
+                  <td scope="row">
+                    <img src="img/Aether_Geo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Xiangling.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Chongyun.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Ganyu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Hu_tao.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kaedehara_Kazuha.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Yun_Jin.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Yaoyao.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                  </td>
                 </tr>
                 <tr>
-                  <td scope="row">Elegance (Inazuma)</td>
+                  <td scope="row"class="align-middle">Elegance </br>(Inazuma)</td>
+                  <td scope="row">
+                    <img src="img/Aether_Electro.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kamisato_Ayaka.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kujou_Sara.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Arataki_Itto.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kamisato_Ayato.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kuki_Shinobu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                  </td>
                 </tr>
                 <tr>
-                  <td scope="row">Ingenuity (Sumeru)</td>
+                  <td scope="row"class="align-middle">Ingenuity</br> (Sumeru)</td>
+                  <td scope="row">
+                    <img src="img/Alhaitham.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Nahida.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Dendro.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Dori.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kaveh.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Layla.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    
+
+                  </td>
                 </tr>
                 <tr>
-                  <td scope="row">Justice (Fontaine)</td>
+                  <td scope="row"class="align-middle">Justice</br> (Fontaine)</td>
+                  <td scope="row">
+                    <img src="img/Charlotte.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Freminet.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Furina.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                  </td>
                </tr>
             </tbody>
             </table>
             <!--wed/sat talents-->
-          <table class="table table-bordered">
+          <table class="table table-dark talentTable" >
             <thead>
               <tr>
-                <th scope="col" rowspan="2">Wednesday/Saturday Talent Books</th>
+                <th scope="col" colspan="2" class="font-weight-bold">Wednesday/Saturday Talent Books</th>
               </tr>
             <tbody>
               <tr>
-                <td scope="row">Ballad (Mondstadt)</td>
+                <td scope="row"class="align-middle">Ballad</br> (Mondstadt)</td>
+              
+                  <td scope="row">
+                    <img src="img/Aether_Anemo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Geo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Lisa.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kaeya.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Venti.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Fischl.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Albedo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Rosaria.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Mika.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                  </td>
+      
               </tr>
               <tr>
-                <td scope="row">Gold (Liyue)</td>
+                <td scope="row"class="align-middle">Gold</br> (Liyue)</td>
+                <td scope="row" class="">
+                  <img src="img/Aether_Anemo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Beidou.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Xingqiu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Zhongli.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Xinyan.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Yanfei.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Baizhu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Xianyun.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+              
+
+                </td>
               </tr>
               <tr>
-                <td scope="row">Light (Inazuma)</td>
+                <td scope="row"class="align-middle">Light</br> (Inazuma)</td>
+                <td scope="row">
+                  <img src="img/Yae_Miko.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Sayu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Gorou.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Raiden_Shogun.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Aether_Electro.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Chiori.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                </td>
               </tr>
               <tr>
-                <td scope="row">Praxis (Sumeru)</td>
+                <td scope="row"class="align-middle">Praxis</br> (Sumeru)</td>
+                <td scope="row">
+                  <img src="img/Wanderer.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Aether_Dendro.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Collei.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Dehya.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Nilou.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                </td>
               </tr>
               <tr>
-                <td scope="row">Order (Fontaine)</td>
+                <td scope="row"class="align-middle">Order</br> (Fontaine)</td>
+                <td scope="row">
+                  <img src="img/Lynette.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Wriothesley.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Chevreuse.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  
+
+                </td>
               </tr>
             </tbody>
           </table>
