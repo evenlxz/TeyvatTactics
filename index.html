@@ -356,7 +356,7 @@
           <table class="table table-dark talentTable">
             <thead>
               <tr>
-                <th scope="col" colspan="2" class="font-weight-bold">Monday/Thursday Talent Books</th>
+                <th scope="col" colspan="2" class="font-weight-bold">Monday/Thursday </br>Talent Books</th>
               </tr>
             </thead>
             <tbody>
@@ -424,7 +424,7 @@
           <table class="table table-dark talentTable">
             <thead>
               <tr>
-                <th scope="col" colspan="2" class="font-weight-bold">Tuesday/Friday Talent Books</th>
+                <th scope="col" colspan="2" class="font-weight-bold">Tuesday/Friday </br>Talent Books</th>
               </tr>
             </thead>
               <tbody>
@@ -497,7 +497,7 @@
             <table class="table table-dark talentTable">
               <thead>
                 <tr>
-                  <th scope="col" colspan="2" class="font-weight-bold">Wednesday/Saturday Talent Books</th>
+                  <th scope="col" colspan="2" class="font-weight-bold">Wednesday/Saturday </br>Talent Books</th>
                 </tr>
               <tbody>
                 <tr>
@@ -658,11 +658,13 @@
         charactersSection.classList.add("d-none");
         abyssSection.classList.add("d-none");
         homeSection.classList.remove("d-none");
+        talentsSection.classList.add("d-none");
       });
 
       charactersButton.addEventListener("click", function(){
         homeSection.classList.add("d-none");
         abyssSection.classList.add("d-none");
+        talentsSection.classList.add("d-none");
         charactersSection.classList.remove("d-none");
 
       });
@@ -670,7 +672,9 @@
 
         homeSection.classList.add("d-none");
         charactersSection.classList.add("d-none");
+        talentsSection.classList.add("d-none");
         abyssSection.classList.remove("d-none");
+
       });
       talentsButton.addEventListener("click", function(){
 
