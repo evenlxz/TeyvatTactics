@@ -48,6 +48,16 @@
     border:top 2px solid gray;
     border-collapse: collapse;
     height: 100%;
+    background-color: rgb(55, 55, 55);
+   
+}
+.fullTalentTableMiddle td{
+    padding-top: 10px;
+    font-size: 20px;
+    border:top 2px solid gray;
+    border-collapse: collapse;
+    height: 100%;
+    background-color: rgb(55, 55, 55);
    
 }
 .fullTalentTable table tr{
