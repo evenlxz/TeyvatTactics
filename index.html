@@ -48,7 +48,7 @@
     <div class="col-sm">
       COL1
     </div>
-    <div class="container col-9 bg-dark" style="min-height: 1000px;"">
+    <div class="container col-9 bg-dark" style="min-height: 1000px;">
       <!--Home Section-->
       <section class="row" id="homeSection">
         <div class="col-sm text-light mt-2 text-center rounded ml-auto bg-dark" style="max-width: 50%;">
@@ -57,7 +57,7 @@
         </div>
         <div class="col-8 text-black  mt-2 text-center rounded mr-auto bg-dark" style="max-width: 35%;">
 
-          <table class="table table-dark talentTable">
+          <table class="table table-dark talentTable d-none" id="monThursTalentTable">
             <!--mon/thurs talents-->
             <thead>
               <tr>
@@ -128,7 +128,7 @@
             </table>
       
              <!--tues/fri talents-->
-          <table class="table table-dark talentTable">
+          <table class="table table-dark talentTable d-none" id="tuesFriTalentTable">
             <thead>
               <tr>
                 <th scope="col" colspan="2" class="font-weight-bold">Tuesday/Friday Talent Books</th>
@@ -202,7 +202,7 @@
             </tbody>
             </table>
             <!--wed/sat talents-->
-          <table class="table table-dark talentTable" >
+          <table class="table table-dark talentTable d-none d-none" id="wedSatTalentTable">
             <thead>
               <tr>
                 <th scope="col" colspan="2" class="font-weight-bold">Wednesday/Saturday Talent Books</th>
@@ -274,18 +274,310 @@
               </tr>
             </tbody>
           </table>
-          </table>
         </div>
       </section>
+      <table class="table table-dark d-none" id="wedSatTalentTable">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2" class="font-weight-bold">Wednesday/Saturday Talent Books</th>
+              </tr>
+            <tbody>
+              <tr>
+                <td scope="row"class="align-middle">Ballad</br> (Mondstadt)</td>
+              
+                  <td scope="row">
+                    <img src="img/Aether_Anemo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Geo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Lisa.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kaeya.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Venti.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Fischl.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Albedo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Rosaria.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Mika.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                  </td>
+      
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Gold</br> (Liyue)</td>
+                <td scope="row" class="">
+                  <img src="img/Aether_Anemo.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Beidou.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Xingqiu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Zhongli.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Xinyan.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Yanfei.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Baizhu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Xianyun.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+              
+
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Light</br> (Inazuma)</td>
+                <td scope="row">
+                  <img src="img/Yae_Miko.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Sayu.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Gorou.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Raiden_Shogun.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Aether_Electro.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Chiori.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Praxis</br> (Sumeru)</td>
+                <td scope="row">
+                  <img src="img/Wanderer.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Aether_Dendro.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Collei.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Dehya.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Nilou.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Order</br> (Fontaine)</td>
+                <td scope="row">
+                  <img src="img/Lynette.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Wriothesley.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Chevreuse.png" class="smallCharacterPortrait  rounded" alt="yoimiya icon">
+                  
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+      <!--Full Talent Page-->
+      <div class="container">
+      <section class="d-none d-flex justify-content-center fullTalentTable" id="talentsSection">
+        
+          <table class="table table-dark talentTable">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2" class="font-weight-bold">Monday/Thursday Talent Books</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row" class="align-middle">Freedom</br> (Mondstadt)</td>
+                <td scope="row">
+                  <img src="img/Aether_Anemo.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Aether_Geo.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Amber.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Barbara.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Sucrose.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Tartaglia.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Diona.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                </td>
+              </tr>
+              <tr>
+                
+              </tr>
+              <tr>
+                <td scope="row" class="align-middle">Prosperity</br> (Liyue)</td>
+                <td scope="row">
+                  <img src="img/Aether_Geo.png" class="mediumCharacterPortrait  rounded" alt="amber icon">
+                  <img src="img/Gaming.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Keqing.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Ningguang.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Qiqi.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Shenhe.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Xiao.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Yelan.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  
+                </td>
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Transience</br> (Inazuma)</td>
+                  <td scope="row">
+                  <img src="img/Yoimiya.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Thoma.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Aether_Electro.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Sangonomiya_Kokomi.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Shikanoin_Heizou.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Kirara.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                 </td>
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Admonition</br> (Sumeru)</td>
+                <td scope="row">
+                  <img src="img/Cyno.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Aether_Dendro.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Tighnari.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Candace.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Faruzan.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                 </td>
+                  
+              </tr>
+              <tr>
+                <td scope="row"class="align-middle">Equity</br> (Fontaine)</td>
+                <td scope="row">
+                  <img src="img/Lyney.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                  <img src="img/Neuvillette.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                  <img src="img/Navia.png" class="mediumCharacterPortrait rounded" alt="amber icon">
+                 </td>
+              </tr>
+            </tbody>
+            </table>
+          <table class="table table-dark talentTable">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2" class="font-weight-bold">Tuesday/Friday Talent Books</th>
+              </tr>
+            </thead>
+              <tbody>
+                <tr>
+                  <td scope="row"class="align-middle">Resistance</br> (Mondstadt)</td>
+                  <td scope="row">
+                    <img src="img/Aether_Anemo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Geo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Jean.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Diluc.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Razor.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Bennett.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Noelle.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Mona.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Eula.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+  
+                  </td>
+                 
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Diligence</br> (Liyue)</td>
+                  <td scope="row">
+                    <img src="img/Aether_Geo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Xiangling.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Chongyun.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Ganyu.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Hu_tao.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kaedehara_Kazuha.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Yun_Jin.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Yaoyao.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+  
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Elegance </br>(Inazuma)</td>
+                  <td scope="row">
+                    <img src="img/Aether_Electro.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kamisato_Ayaka.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kujou_Sara.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Arataki_Itto.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kamisato_Ayato.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kuki_Shinobu.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+  
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Ingenuity</br> (Sumeru)</td>
+                  <td scope="row">
+                    <img src="img/Alhaitham.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Nahida.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Dendro.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Dori.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Kaveh.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Layla.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    
+  
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Justice</br> (Fontaine)</td>
+                  <td scope="row">
+                    <img src="img/Charlotte.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Freminet.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Furina.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+  
+                  </td>
+               </tr>
+            </tbody>
+            </table>
+            <table class="table table-dark talentTable">
+              <thead>
+                <tr>
+                  <th scope="col" colspan="2" class="font-weight-bold">Wednesday/Saturday Talent Books</th>
+                </tr>
+              <tbody>
+                <tr>
+                  <td scope="row"class="align-middle">Ballad</br> (Mondstadt)</td>
+                
+                    <td scope="row">
+                      <img src="img/Aether_Anemo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Aether_Geo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Lisa.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Kaeya.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Venti.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Fischl.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Albedo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Rosaria.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                      <img src="img/Mika.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+  
+                    </td>
+        
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Gold</br> (Liyue)</td>
+                  <td scope="row" class="">
+                    <img src="img/Aether_Anemo.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Beidou.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Xingqiu.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Zhongli.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Xinyan.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Yanfei.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Baizhu.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Xianyun.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                
+  
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Light</br> (Inazuma)</td>
+                  <td scope="row">
+                    <img src="img/Yae_Miko.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Sayu.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Gorou.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Raiden_Shogun.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Electro.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Chiori.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+  
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Praxis</br> (Sumeru)</td>
+                  <td scope="row">
+                    <img src="img/Wanderer.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Aether_Dendro.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Collei.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Dehya.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Nilou.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row"class="align-middle">Order</br> (Fontaine)</td>
+                  <td scope="row">
+                    <img src="img/Lynette.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Wriothesley.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                    <img src="img/Chevreuse.png" class="mediumCharacterPortrait  rounded" alt="yoimiya icon">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+
+        </div>
+        
     
         <!--Character Section-->
-        <section class="bg-light text-dark p-3 d-none" id="charactersSection">
+      <section class="bg-light text-dark p-3 d-none" id="charactersSection">
           
-          <div class="container ms-5">
-            <img src="img/Amber_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="amber icon">
-            <img src="img/Amber_Icon.webp" class="img-thumbnail characterPortrait" alt="amber icon">
-          </div>
-        </section>
+        <div class="container ms-5">
+          <img src="img/Amber_Icon.webp" class="img-thumbnail me-4 characterPortrait" alt="amber icon">
+          <img src="img/Amber_Icon.webp" class="img-thumbnail characterPortrait" alt="amber icon">
+        </div>
+
+      </section>
     
         <!--Abyss Section-->
         <section>
@@ -308,7 +600,7 @@
  
 
   
-   
+    <!--scripts-->
     <script src="script.js"> </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
@@ -320,6 +612,47 @@
       const charactersSection = document.getElementById("charactersSection");
       const homeSection = document.getElementById("homeSection");
       const abyssSection = document.getElementById("abyssSection");
+      const talentsSection = document.getElementById("talentsSection");
+
+      const monThursTalentTable = document.getElementById("monThursTalentTable");
+      const tuesFriTalentTable = document.getElementById("tuesFriTalentTable");
+      const wedSatTalentTable = document.getElementById("wedSatTalentTable");
+
+
+      const d = new Date();
+      let day = d.getDay();
+      if(day == 0){
+        day = "Sunday";
+        monThursTalentTable.classList.remove("d-none");
+        tuesFriTalentTable.classList.remove("d-none");
+        wedSatTalentTable.classList.remove("d-none");
+
+      }
+      if(day == 1){
+        day = "Monday";
+        monThursTalentTable.classList.remove("d-none");
+      }
+      if(day == 2){
+        day = "Tuesday";
+        tuesFriTalentTable.classList.remove("d-none");
+      }
+      if(day == 3){
+        day = "Wednesday";
+        wedSatTalentTable.classList.remove("d-none");
+      }
+      if(day == 4){
+        day = "Thursday";
+        monThursTalentTable.classList.remove("d-none");
+      }
+      if(day == 5){
+        day = "Friday";
+        tuesFriTalentTable.classList.remove("d-none");
+      }
+      if(day == 7){
+        day = "Saturday";
+        wedSatTalentTable.classList.remove("d-none");
+      }
+      
 
       homeButton.addEventListener("click", function(){
         charactersSection.classList.add("d-none");
@@ -339,6 +672,13 @@
         charactersSection.classList.add("d-none");
         abyssSection.classList.remove("d-none");
       });
+      talentsButton.addEventListener("click", function(){
+
+        homeSection.classList.add("d-none");
+        charactersSection.classList.add("d-none");
+        abyssSection.classList.add("d-none");
+        talentsSection.classList.remove("d-none");
+});
 
 
     </script>

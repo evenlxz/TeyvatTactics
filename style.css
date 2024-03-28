@@ -8,6 +8,12 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.mediumCharacterPortrait{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .lighterGray{
     background-color: lightGray;
 }
@@ -18,6 +24,23 @@
 .talentTable td{
     text-align: left;
     justify-content:left;
+}
 
+.fullTalentTable{
+    
+}
+.fullTalentTable table{
+    margin-top: 1%;
+    text-align:center;
+    justify-content: left;
 
+}
+.fullTalentTable table th{
+    font-size: 25px;
+
+}
+.fullTalentTable table td{
+    padding-top: 10px;
+    font-size: 20px;
+    border:none;
 }
