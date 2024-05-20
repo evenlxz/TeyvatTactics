@@ -1,66 +1,9 @@
-.characterPortrait{
-    width: 100px;
-    height: 100px;
-}
-.smallCharacterPortrait{
-    width: 35px;
-    height: 35px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.mediumCharacterPortrait{
-    width: 45px;
-    height: 45px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.lighterGray{
-    background-color: lightGray;
-}
-.talentTable{
-    overflow-wrap: break-word;
-
-}
-.talentTable td{
-    text-align: left;
-    justify-content:left;
-}
-
-.fullTalentTable{
-    
-}
-.fullTalentTable table{
-    margin-top: 1%;
-    text-align:center;
-    justify-content: left;
-    border: 1px solid gray;
-    border-collapse: collapse;
-
-
-}
-.fullTalentTable table th{
-    font-size: 25px;
-
-}
-.fullTalentTable table td{
-    padding-top: 10px;
-    font-size: 20px;
-    border:top 2px solid gray;
-    border-collapse: collapse;
+.characterCard{
+    width:100%; 
     height: 100%;
-    background-color: rgb(55, 55, 55);
-   
+    background-color: black;
+    color:black;
 }
-.fullTalentTableMiddle td{
-    padding-top: 10px;
-    font-size: 20px;
-    border:top 2px solid gray;
-    border-collapse: collapse;
-    height: 100%;
-    background-color: rgb(55, 55, 55);
-   
-}
-.fullTalentTable table tr{
-    min-height: 25%;
-
+.card-text{
+    min-height: 50%;
 }
