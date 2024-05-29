@@ -1,0 +1,13 @@
+{
+  "name": "genshincompanion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i ./input.css -o ./css/output.css",
+    "watch": "tailwindcss build -i ./input.css -o ./css/output.css --watch "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
