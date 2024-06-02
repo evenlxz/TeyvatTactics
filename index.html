@@ -11,78 +11,24 @@
     <div class="bg-neutral-900 pt-5 flex min-h-screen">
 
         <!--Navbar-->
-       <nav class="bg-black h-14 flex items-center justify-center px-5  fixed top-0 w-full ">
+       <nav class="bg-black h-14 flex items-center justify-center px-5 fixed top-0 w-full ">
             <button class=" text-white text-lg rounded-sm h-full mx-5 " type="button">Genshin Companion</button>
        </nav>
 
-       <div class="bg-neutral-800 mx-20 my-14 flex flex-col flex-grow justify-center rounded-md">
+       <div id="character-cards-container" class="bg-neutral-800 mx-20 my-14 flex flex-col flex-grow justify-center rounded-md">
 
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 m-4">
-
-                <!--Card-->
-                <div class="bg-neutral-900 rounded-md hover:border shadow-lg">
-                    <div class="flex flex-col flex-grow items-center">
-                        <img class="h-36 w-36" src="characterIcons/ui-avataricon-albedo.png" alt="Albedo">
-                        <p class = "py-2 text-2xl text-white text-center text-bold text-wrap">Albedo</p>
-
-                        <div class = "flex flex-row flex-wrap justify-center gap-1">
-                            <div class="bold text-sm text-center align-middle items-center h-5 px-3 mx-1 bg-yellow-400 rounded-md">
-                                <p>Geo</p>
-                            </div>
-                            <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
-                                <p>DPS</p>
-                            </div>
-                            <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
-                                <p>Off-field</p>
-                            </div>
-                            <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
-                                <p>Buffer</p>
-                            </div>
-                            <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
-                                <p>Healer</p>
-                            </div>
-                        </div>
-
-                        <button class="rounded p-3 text-white bg-blue-600 my-4 bottom-0 border-black hover:bg-blue-500" type="button">View Guide</button>
-                    </div>
-                </div>
-
-                <div class="bg-neutral-900 rounded-md hover:border shadow-lg">
-                    <div class="flex flex-col flex-grow items-center">
-                        <img class="h-36 w-36" src="characterIcons/ui-avatarIcon-arlecchino.png" alt="Albedo">
-                        <p class = "py-2 text-2xl text-white text-center text-bold text-wrap">Arlecchino</p>
-
-                        <div class = "flex flex-row flex-wrap justify-center gap-1">
-                            <div class="bold text-sm text-center align-middle items-center h-5 px-3 mx-1 bg-red-600 rounded-md">
-                                <p>Pyro</p>
-                            </div>
-                            <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
-                                <p>DPS</p>
-                            </div>
-                            <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
-                                <p>On-field</p>
-                            </div>
-                        </div>
-
-                        <button class="rounded p-3 text-white bg-blue-600 my-4 bottom-0 border-black hover:bg-blue-500" type="button">View Guide</button>
-                    </div>
-                </div>
+            
                 
                 
                 
                 
-                
-                
-                
-                
-                
-
-            </div>
+            
+       </div>
         
        </div>
        
     
     </div>
-    
+    <script src="characters.js"></script>
 </body>
 </html>
