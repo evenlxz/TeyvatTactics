@@ -11,11 +11,19 @@
     <div class="bg-neutral-900 pt-5 flex min-h-screen">
 
         <!--Navbar-->
-       <nav class="bg-black h-14 flex items-center justify-center px-5 fixed top-0 w-full ">
+       <nav class="bg-black h-16 flex items-center justify-center px-5 fixed top-0 w-full text-6xl">
             <button class=" text-white text-lg rounded-sm h-full mx-5 " type="button">Genshin Companion</button>
        </nav>
+       
 
-       <div class="bg-neutral-800 mx-20 my-14 flex flex-col flex-grow justify-center rounded-md">
+       <div class="bg-neutral-800 mx-20 my-14 flex flex-col flex-grow justify-center  rounded-md">
+
+            
+            <div class="bg-neutral-800 flex flex-row text-black text-lg p-3 items-center justify-center">
+                <input class="mt-4  mx-2 p-1 w-96 h-12 rounded-md " name = "searchBar" type="search" placeholder="Search Characters">
+            </div>
+            
+
 
             <div id="characterCardsGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mx-4 py-6">
 
