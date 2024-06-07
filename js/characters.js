@@ -522,7 +522,8 @@ buildTable = () => {
         const card = document.createElement("div");
 
         card.className = "bg-neutral-900 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg p-4 flex flex-col items-center";
-        card.style = "height: 17rem;"
+        card.setAttribute("id", character.name);
+        card.style = "height: 17rem; width: 16rem; ";
 
         const rolesHTML = character.roles.map(role => `
             <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
@@ -549,6 +550,21 @@ buildTable = () => {
 
     }
 }
+//SEARCH FUNCTIONS
+const searchBar = document.getElementById("searchBar");
+searchBar.addEventListener("input", () =>{
+    const text = document.getElementById("searchBar").value;
+    for(let i = 0; i < characters.length; i++){
+        if(characters[i].name.toLowerCase().includes(text)){
+            console.log(text);
+            document.getElementById(characters[i].name).style.display = "flex";
+        }else{
+            document.getElementById(characters[i].name).style.display = "none";
+
+        }
+    }
+   
+});
 
 
 
