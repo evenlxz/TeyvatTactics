@@ -345,7 +345,7 @@ const characters = [
         roles: ["DPS", "Off-Field"]
     },
     {
-        name: "Kokomi",
+        name: "Sanganomia Kokomi",
         src: "characterIcons/ui-avataricon-kokomi.png",
         element: "Hydro",
         roles: ["Healer", "DPS", "Support"]
