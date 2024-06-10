@@ -8,24 +8,29 @@
 </head>
 <body>
     
-    <div class="bg-neutral-900 pt-5 min-h-screen">
+    <div class="bg-neutral-900 pt-5 min-h-screen py-3">
 
         <!--Navbar-->
-       <nav class="bg-black h-16  items-center justify-center px-5 fixed top-0 w-full">
-        <div class="h-full w-full text-center">
-            <button class="text-white text-3xl h-full">TeyvatGuides</button>
-        </div>
-        <div>
-            
-        </div>
-            
-       </nav>
+        <nav class="fixed top-0 h-16 flex flex-row justify-between items-center align-middle text-center bg-neutral-900 text-white shadow  w-full px-28">
+
+            <div class="h-full flex">
+                <img class="h-full w-16" src="characterIcons/dehyaEmoji.webp" alt="">
+                <button class="bg-neutral-900 h-full text-2xl">GenshinCompanion</button>
+            </div>
+            <div class="h-full align-middle text-center hidden sm:flex sm:flex-col md:flex-row gap-2">
+
+                 <button class="h-full w-28 rounded-sm bg-discord text-lg no-underline text-grey-darkest hover:text-blue-dark -2">Discord</button>
+                 <button class="h-full w-28 rounded-sm bg-red-600 text-lg no-underline text-grey-darkest hover:text-blue-dark p-2">Discord</button>
+                 <button class="h-full text-lg no-underline text-grey-darkest hover:text-blue-dark p-2">Twitter</button>
+                 
+            </div>
+          </nav>
        
 
-       <div class="bg-neutral-800 mx-20 my-14 flex flex-col flex-grow justify-center  rounded-md">
+       <div class="bg-neutral-700 mx-20 my-14 flex flex-col flex-grow justify-center  rounded-md">
 
-            <div class="bg-neutral-800 flex flex-row text-black text-lg p-3 items-center justify-center">
-                <input class="my-4  mx-2 p-1 sm:w-40 md:w-72 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
+            <div class="bg-neutral-700 flex flex-row text-black text-lg p-3 items-center rounded-md justify-center">
+                <input class="my-4  mx-2 p-1 sm:w-52 md:w-72 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
             </div>
             
 

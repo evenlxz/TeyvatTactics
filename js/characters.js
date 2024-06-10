@@ -521,7 +521,7 @@ buildTable = () => {
         const character = characters[i];
         const card = document.createElement("div");
 
-        card.className = "bg-neutral-900 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg p-4 flex flex-col items-center";
+        card.className = "bg-neutral-800 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg p-4 flex flex-col items-center";
         card.setAttribute("id", character.name);
         card.style = "height: 17rem; width: 16rem; ";
 
@@ -550,12 +550,12 @@ buildTable = () => {
 
     }
 }
-//SEARCH FUNCTIONS
+//SEARCH FUNCTION
 const searchBar = document.getElementById("searchBar");
 searchBar.addEventListener("input", () =>{
     const text = document.getElementById("searchBar").value;
     for(let i = 0; i < characters.length; i++){
-        if(characters[i].name.toLowerCase().includes(text)){
+        if(characters[i].name.toLowerCase().includes(text.toLowerCase())){
             console.log(text);
             document.getElementById(characters[i].name).style.display = "flex";
         }else{
