@@ -22,7 +22,9 @@ module.exports = {
         'geo': '#ffff00',
         'anemo': '#99ffcc',
         'hydro': '#0066ff',
-        'discord' : '#7289da'
+        'discord' : '#7289da',
+        'twitter' : '#008AD8'
+        
       }
     },
     

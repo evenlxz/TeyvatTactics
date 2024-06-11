@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
     <link href="./css/output.css" rel="stylesheet">
+
     <title>TeyvatGuides</title>
 </head>
 <body>
@@ -11,32 +14,40 @@
     <div class="bg-neutral-900 pt-5 min-h-screen py-3">
 
         <!--Navbar-->
-        <nav class="fixed top-0 h-16 flex flex-row justify-between items-center align-middle text-center bg-neutral-900 text-white shadow  w-full px-28">
-
-            <div class="h-full flex">
-                <img class="h-full w-16" src="characterIcons/dehyaEmoji.webp" alt="">
-                <button class="bg-neutral-900 h-full text-2xl">GenshinCompanion</button>
+        <nav class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-800 shadow w-full px-6 sm:px-10 lg:px-20">
+            <div class="flex items-center">
+                <img class="h-14 w-14 me-2" src="characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
+                <a href="#top" class="bg-neutral-900 h-full text-3xl">TeyvatGuides</a>
             </div>
-            <div class="h-full align-middle text-center hidden sm:flex sm:flex-col md:flex-row gap-2">
-
-                 <button class="h-full w-28 rounded-sm bg-discord text-lg no-underline text-grey-darkest hover:text-blue-dark -2">Discord</button>
-                 <button class="h-full w-28 rounded-sm bg-red-600 text-lg no-underline text-grey-darkest hover:text-blue-dark p-2">Discord</button>
-                 <button class="h-full text-lg no-underline text-grey-darkest hover:text-blue-dark p-2">Twitter</button>
-                 
+            <div class="hidden md:flex md:flex-row gap-2 items-center">
+                <button class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-youtube pe-2 hidden md:inline"></div>Youtube</button>
+                <button class="bg-discord h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-discord pe-2 hidden md:inline"></div>Discord</button>
+                <button class="bg-twitter h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-x-twitter pe-2 hidden md:inline"></div>Twitter</button>
             </div>
-          </nav>
+            <div class="flex md:hidden">
+                <button class="text-white text-3xl focus:outline-none" onclick="toggleNav()">☰</button>
+            </div>
+        </nav>
+    
+        <nav id="mobileMenu" class="menu-items bg-neutral-900 md:hidden flex-col gap-2 p-4 fixed top-16 w-full text-white hidden">
+            <button class="bg-red-600 h-13 p-3 rounded-sm text-lg text-center">
+                <div class="fa-brands fa-youtube pe-2 inline"></div>Youtube
+            </button>
+            <button class="bg-discord h-13 p-3 rounded-sm text-lg text-center"><div class="fa-brands fa-discord pe-2 inline"></div>Discord</button>
+            <button class="bg-twitter h-13 p-3 rounded-sm text-lg text-center"><div class="fa-brands fa-x-twitter pe-2 inline"></div>Twitter</button>
+        </nav>
        
 
-       <div class="bg-neutral-700 mx-20 my-14 flex flex-col flex-grow justify-center  rounded-md">
+       <div class="bg-neutral-700 mx-20 my-14 flex flex-col flex-grow justify-center rounded-md">
 
             <div class="bg-neutral-700 flex flex-row text-black text-lg p-3 items-center rounded-md justify-center">
-                <input class="my-4  mx-2 p-1 sm:w-52 md:w-72 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
+                <input class="my-4  mx-2 p-1 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
             </div>
             
 
 
             <div id="characterCardsGrid" class="flex flex-row flex-wrap gap-3 mx-auto justify-center pb-5">
-
+                
                 <!--Card-->
                     
             
@@ -46,6 +57,13 @@
        
     
     </div>
+    <script>
+        function toggleNav() {
+            const mobileNav = document.getElementById('mobileMenu');
+            mobileNav.classList.toggle('hidden');
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/143ea2a122.js" crossorigin="anonymous"></script>
     <script src="./js/characters.js"></script>
 </body>
 </html>
