@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: [
+    './**/*.html',
+  ],
   safelist: [
     'bg-dendro','bg-electro', 'bg-cryo','bg-pyro','bg-geo',
     'bg-anemo', 'bg-hydro',

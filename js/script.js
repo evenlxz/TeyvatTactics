@@ -513,17 +513,19 @@ document.addEventListener("DOMContentLoaded", () => {
     
 });
 
+
 function buildTable(){
     const grid = document.getElementById("characterCardsGrid");
     
     for(let i = 0; i < characters.length; i++){
 
         const character = characters[i];
-        const card = document.createElement("div");
+        const card = document.createElement("a");
 
         card.className = "bg-neutral-800 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg p-4 flex flex-col items-center";
         card.setAttribute("id", character.name);
-        card.addEventListener("click", () => openGuide(character));
+        card.setAttribute("href", "./characterGuides/" +character.name + "Guide.html");
+        
         card.style = "height: 17rem; width: 16rem; ";
 
         const rolesHTML = character.roles.map(role => `
@@ -566,9 +568,7 @@ searchBar.addEventListener("input", () =>{
     }
    
 });
-function openGuide(character){
-    
-}
+
 
 
 

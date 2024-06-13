@@ -8,16 +8,15 @@
 
     <link href="/css/output.css" rel="stylesheet">
 
-    <title>TeyvatTactics</title>
+    <title>AlbedoGuide</title>
 </head>
 <body>
-    
-    <div class="bg-neutral-800 pt-5 min-h-screen py-3">
+    <div class="bg-neutral-800 min-h-screen">
 
         <!--Navbar-->
         <nav class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
             <div class="flex items-center align-middle text-center justify-center">
-                <img class="h-16 w-16 me-2" src="characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
+                <img class="h-16 w-16 me-2" src="/characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
                 <a href="#top" class="bg-neutral-900 h-full text-2xl font-bold" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
             </div>
             <div class="hidden md:flex md:flex-row gap-2 items-center">
@@ -37,30 +36,40 @@
             <button class="bg-discord h-13 p-3 rounded-sm text-lg text-center"><div class="fa-brands fa-discord pe-2 inline"></div>Discord</button>
             <button class="bg-twitter h-13 p-3 rounded-sm text-lg text-center"><div class="fa-brands fa-x-twitter pe-2 inline"></div>Twitter</button>
         </nav>
-       
+        <!--Body-->
+        <div class="container pt-16 flex px-20">
+            <div class="grid grid-cols-3">
+                <!--col1-->
+                <div>
 
-       <div class="bg-neutral-700 mx-20 my-14 flex flex-col flex-grow justify-center rounded-md">
+                </div>
+                <!--col2-->
+                <div class="mx-auto mt-6">
+                    <p class="text-6xl text-geo font-semibold">Albedo Guide</p>
+                </div>
+                <!--col3-->
+                <div>
 
-            <div class="bg-neutral-700 flex flex-row text-black text-lg p-3 items-center rounded-md justify-center">
-                <input class="my-4  mx-2 p-1 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
+                </div>
+
             </div>
-            
-
-
-            <div id="characterCardsGrid" class="flex flex-row flex-wrap gap-3 mx-auto justify-center pb-5">
                 
-                <!--Cards-->
-                    
             
-            </div>
+            
+
+
+            
+
+
+        </div>
+
         
-       </div>
-       
-    
+        
+
+
+        <script src="/js/toggleNav.js"></script>
+        <script src="https://kit.fontawesome.com/143ea2a122.js" crossorigin="anonymous"></script>
     </div>
-    
-    <script src="https://kit.fontawesome.com/143ea2a122.js" crossorigin="anonymous"></script>
-    <script src="/js/toggleNav.js"></script>
-    <script src="/js/script.js"></script>
 </body>
+
 </html>
