@@ -9,5 +9,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "constructs": "^10.3.0",
+    "esbuild": "^0.21.5",
+    "tsx": "^4.15.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.0"
+  }
 }
