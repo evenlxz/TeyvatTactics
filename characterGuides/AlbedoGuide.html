@@ -12,7 +12,6 @@
 </head>
 <body>
     <div class="bg-neutral-800 min-h-screen">
-
         <!--Navbar-->
         <nav class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
             <div class="flex items-center align-middle text-center justify-center">
@@ -38,15 +37,54 @@
         </nav>
         <!--Body-->
         <div class="container pt-16 mx-auto ">
-            <div class="grid grid-cols-6">
+            <div class="grid grid-cols-6 ">
                 <div class="bg-neutral-800 col-span-1">
-                    HELLO THIS IS MORE TEXT
+                    <div class="flex flex-col  bg-neutral-600 text-white h-96 w-64 rounded-md fixed left-0">
+                        <p class=" flex justify-center p-5 font-bold border items-center ">Table of contents</p>
+                         <a href="#generalInfo" class="flex flex-grow justify-center items-center">General Info</a></li>
+                         <a href="#prosAndCons" class="flex flex-grow justify-center  items-center">Pros & Cons</a></li>
+                         <a href="" class="flex flex-grow justify-center items-center">Playstyle</a></li>
+                         <a href="" class="flex flex-grow justify-center items-center ">Weapons</a></li>
+                         <a href="" class="flex flex-grow justify-center items-center ">Artifacts</a></li>
+                         <a href="" class="flex flex-grow justify-center items-center ">Team Compositions</a></li>                           
+                         <a href="" class="flex flex-grow justify-center items-center ">Tips & Tricks</a></li>
+                    </div>
                 </div>
                 <div class="bg-neutral-700 col-span-4 flex flex-col rounded-md">
-                    <p class="text-white text-5xl flex justify-center p-5">Albedo Guide</p>
-                    <img src="/characterImages/image.png" alt="Albedo" class="">
-                    <p class="text-white text-lg flex justify-start p-5">Albedo Guide</p>
+                    <p class="text-white text-5xl flex justify-center px-10 pt-10 pb-3 font-bold">Albedo Guide</p>
+                    <p class="text-white text-md flex justify-center pb-10">Written by Evenlxz</p>
 
+                    <div class="flex flex-row">
+                        
+                        <div>
+                            <p id="generalInfo" class="flex text-white text-3xl justify-center">General Info</p>
+                            <p class="text-white text-lg flex flex-col flex-grow justify-start p-5">Albedo 
+                                is a 5 star off-field geo sword character in Genshin Impact. His primary role is as a
+                                 sub-dps character that rarely interferes with reactions. Albedo is a decent choice in a wide variety
+                                  of teams, although is often not the strongest choice.</p> 
+                        </div>
+                    </div>
+                    <!--Pros and Cons-->
+                    <div id="prosAndCons" class="flex flex-col flex-grow m-5 text-white" >
+                        <p class="flex justify-center flex-grow text-3xl">Pros & Cons</p>
+                        <div class="flex flex-row w-full">
+                            <div class="flex flex-col w-2/4 border border-collapse">
+                                <p class="flex justify-center text-bold text-xl border-b text-green-500">Pros</p>
+                                <p class="flex justify-start p-2 text-green-500">-Completely off-field damage tied to elemental skill.</p>
+                                <p class="flex justify-start p-2 text-green-500">-Flexible team building.</p>
+                                <p class="flex justify-start p-2 text-green-500">-Synergy with Zhongli/Chiori for geo resonance.</p>
+                                <p class="flex justify-start p-2 text-green-500">-Elemental mastery buff on burst.</p>
+                            </div>
+                            <div class="flex flex-col w-2/4 border border-collapse">
+                                <p class="flex justify-center text-bold text-xl border-b text-red-600">Cons</p>
+                                <p class="flex justify-start p-2 text-red-600">-Elemental skill can be easily destroyed by certain bosses.</p>
+                                <p class="flex justify-start p-2 text-red-600">-Flexible team building.</p>
+                                <p class="flex justify-start p-2 text-red-600">-Synergy with Zhongli/Chiori for geo resonance</p>
+                                <p class="flex justify-start p-2 text-red-600">-Generally overshadowed by Chiori.</p>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="bg-neutral-800 col-span-1">
@@ -54,22 +92,7 @@
                 </div>
 
             </div>
-            
-
-            
-                
-            
-            
-
-
-            
-
-
         </div>
-
-        
-        
-
 
         <script src="/js/toggleNav.js"></script>
         <script src="https://kit.fontawesome.com/143ea2a122.js" crossorigin="anonymous"></script>
