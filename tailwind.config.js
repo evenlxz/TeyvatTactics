@@ -17,13 +17,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'electro': '#e600e6',
-        'cryo': '#00ffff',
-        'dendro': '#00ff00',
-        'pyro': '#ff1a1a',
-        'geo': '#ffff00',
+        'electro': '#945dc4',
+        'cryo': '#a0d7e4',
+        'dendro': '#608a00',
+        'pyro': '#EC4923',
+        'geo': '#debd6c',
         'anemo': '#99ffcc',
-        'hydro': '#0066ff',
+        'hydro': '#00BFFF',
         'discord' : '#7289da',
         'twitter' : '#008AD8'
         
