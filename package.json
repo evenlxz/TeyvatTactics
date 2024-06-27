@@ -13,10 +13,8 @@
   "devDependencies": {
     "constructs": "^10.3.0",
     "esbuild": "^0.21.5",
+    "tailwindcss": "^3.4.4",
     "tsx": "^4.15.4",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "tailwindcss": "^2.0.0"
   }
 }
