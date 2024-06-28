@@ -22,6 +22,7 @@ module.exports = {
         'dendro': '#608a00',
         'pyro': '#EC4923',
         'geo': '#debd6c',
+        'darkerGeo': '#ffd11a',
         'anemo': '#99ffcc',
         'hydro': '#00BFFF',
         'discord' : '#7289da',

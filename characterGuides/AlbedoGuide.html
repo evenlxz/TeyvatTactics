@@ -48,15 +48,17 @@
         </nav>
 
         <!--Body-->
-        <div class="bg-neutral-700 w-full h-full flex flex-col flex-grow md:flex-row">
+        <div class="bg-neutral-800 w-full h-full flex flex-col flex-grow lg:flex-row">
             <!--Left-->
-            <div class="md:w-1/6 flex w-full text-white align-middle  text-center">
+            <div class="lg:w-1/6 flex w-full text-white align-middle text-center">
                 
-                <div class="overflow-y-scroll custom-scrollbar bg-neutral-800 flex flex-col border border-neutral-800 h-96 sticky top-16 w-full mx-auto md:w-5/6 md:top-32 md:mt-16 ">
+                <div class="overflow-y-scroll custom-scrollbar bg-neutral-800 flex flex-col border border-neutral-800
+                 h-96 sticky top-16 w-full mx-auto lg:w-5/6 lg:top-32 lg:mt-16 ">
                     <p class="p-5 sticky top-0 bg-neutral-900 font-bold text-lg">Table of Contents </p>
                     <a href="#generalInfo" class="p-5">General Info</a>
                     <a href="#prosAndCons" class="p-5">Pros and Cons</a>
                     <a href="#howToPlay" class="p-5">How to Play</a>
+                    <a href="#talents" class="p-5">Talents</a>
                     <a href="#weapons" class="p-5">Weapons</a>
                     <a href="#artifacts" class="p-5">Artifacts</a>
                     <a href="#teamCompositions" class="p-5">Team Compositions</a>
@@ -64,12 +66,12 @@
                 
             </div>
             <!--Center-->
-            <div class="bg-neutral-800 w-full md:w-4/6 flex flex-col flex-grow p-6  text-white">
-                <p class=" bg-geo text-5xl flex justify-center text-center p-14 font-bold rounded-lg">Albedo Guide</p>
+            <div class="bg-neutral-800 w-full lg:w-4/6 flex flex-col flex-grow p-6  text-white">
+                <p class=" bg-darkerGeo text-5xl flex justify-center text-center p-14 mt-10 font-bold">Albedo Guide</p>
                 <p class="text-lg flex justify-center p-3">Written by: Evenlxz</p>
 
-                <div  id="generalInfo" class="flex flex-col mt-10">
-                    <p class="bg-neutral-700 p-5 text-3xl text-center rounded-lg">General Info</p>
+                <div  id="generalInfo" class="flex flex-col mt-14 border-2 border-geo">
+                    <p class="bg-geo p-5 text-3xl text-center font-semibold">General Info</p>
                     <p class="text-lg p-5">
                         Albedo is a 5-star <span class="text-geo font-semibold">geo </span> sword character in Genshin Impact.
                         His kit focuses on dealing off-field geo damage through his elemental skill. Albedo's skill, when placed, generates a burst of
@@ -79,51 +81,75 @@
                          your teams elemental mastery. This makes Albedo a flexible damage dealer that 
                          can support most characters through off-field damage, <span class="text-geo font-semibold">geo</span>-resonance,
                          and elemental mastery buffing.
-                    </p>
+                    </p> 
+                    <p></p>
                 </div>
                 <!--Pros and Cons-->
-                <div id="prosAndCons" class="my-5 ">
-                    <p class="bg-neutral-700 my-3 p-5 text-3xl text-center">Pros & Cons</p>
-                    <div class="flex flex-row w-full">
-                        <div class="flex flex-col w-1/2 border-2 border-collapse">
-                            <p class="text-xl border-b-2 text-green-500 text-center font-bold">Pros</p>
-                            <p class="p-2 text-green-500">- Completely off-field damage tied to elemental skill.</p>
-                            <p class="p-2 text-green-500">- Flexible team building. Albedo can be put anywhere.</p>
-                            <p class="p-2 text-green-500">- Synergy with Zhongli/Chiori for geo-resonance.</p>
-                            <p class="p-2 text-green-500">- Elemental mastery buff on burst.</p>
+                <div id="prosAndCons" class="my-5">
+                    
+                    <p class="bg-geo p-5 text-3xl text-center font-bold mt-14">Pros & Cons</p>
+                    
+                    <div class="flex flex-row w-full ">
+                        <div class="flex flex-col w-1/2 border-r border-l-2 border-y-2 border-geo p-2">
+                            <p class="text-xl text-green-300 text-center font-bold">Pros</p>
+                            <p class="p-2 text-green-300">- Completely off-field damage tied to elemental skill.</p>
+                            <p class="p-2 text-green-300">- Flexible team building. Albedo can be put anywhere.</p>
+                            <p class="p-2 text-green-300">- Synergy with Zhongli/Chiori for geo-resonance.</p>
+                            <p class="p-2 text-green-300">- Elemental mastery buff on burst.</p>
                         </div>
-                        <div class="flex flex-col w-1/2 border-2 border-collapse">
-                            <p class="text-xl border-b-2 text-red-600 text-center font-bold">Cons</p>
-                            <p class="p-2 text-red-600">- Elemental skill can be easily destroyed by certain bosses.</p>
-                            <p class="p-2 text-red-600">- Potentially lower damage output than other support options.</p>
-                            <p class="p-2 text-red-600">- Needs at least geo-resonance to start doing noticable damage</p>
-                            <p class="p-2 text-red-600">- Generally overshadowed by Chiori.</p>
+                        <div class="flex flex-col w-1/2 border-l border-r-2 border-y-2 border-geo p-2">
+                            <p class="text-xl  text-red-400 text-center font-bold">Cons</p>
+                            <p class="p-2 text-red-400">- Elemental skill can be easily destroyed by certain bosses.</p>
+                            <p class="p-2 text-red-400">- Potentially lower damage output than other support options.</p>
+                            <p class="p-2 text-red-400">- Needs at least geo-resonance to start doing noticable damage</p>
+                            <p class="p-2 text-red-400">- Generally overshadowed by Chiori.</p>
                         </div>
                     </div>
                 </div>
-                <div  id="howToPlay" class="flex flex-col mt-10">
-                    <p class="bg-neutral-700 p-5 text-3xl text-center">How to Play</p>
-                    <p class="text-lg m-5">
-                        Albedo is simple character to play. Simply place your elemental skill and switch off him. If you are playing a team
-                        that can make use of elemental mastery, you should use his burst after his skill.
-                    </p>
-                    <p class="text-lg mx-5 mb-5">Be careful around large enemies or bosses,
-                        as placing your elemental skill inside of their models will cause the flower to instantly be destroyed. You can remedy this by
-                        placing Albedo's skill behind him, or holding his skill to get more precise placement.
-                    </p>
-                    <p class="text-lg mx-5 mb-5">Be aware that Albedo's skill DOES snapshot.
-                         Cast any buffs you want him before casting his skill.
-                    </p>
-                    <p class="font-semibold text-2xl mx-5 mb-5">
-                         Combo:&emsp;Elemental Skill -> Elemental Burst (If required)
-                    </p>
+                <div  id="howToPlay" class="flex flex-col mt-14 text-left">
+                    <p class="bg-geo p-5 text-3xl text-center font-bold">How to Play</p>
+                    <div class="border-2 border-geo">
+                        <p class="text-lg m-5">
+                            Albedo is simple character to play. Simply place your elemental skill and switch off him. If you are playing a team
+                            that can make use of elemental mastery, you should use his burst after his skill.
+                        </p>
+                        <p class="text-lg mx-5 mb-5">Be careful around large enemies or bosses,
+                            as placing your elemental skill inside of their models will cause the flower to instantly be destroyed. You can remedy this by
+                            placing Albedo's skill behind him, or holding his skill to get more precise placement.
+                        </p>
+                        <p class=" font-semibold text-2xl w-2/3 mx-auto mb-5 p-3 bg-neutral-700">
+                            Combo:&emsp;Elemental Skill -> Elemental Burst (If required)
+                       </p>
+                        <p class="text-lg mx-5 mb-5">Be aware that Albedo's skill DOES snapshot.
+                             Cast any buffs you want him before casting his skill.
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+                <!--Talents-->
+                <div  id="talents" class="flex flex-col mt-14 border-geo border-2 justify-center">
+                    <p class="bg-geo p-5 text-3xl w-full text-center font-bold">Talent Priority</p>
+                        <div class="flex flex-col  lg:flex-row justify-center ">
+                            <div class="flex flex-col h-32 lg:w-1/3 bg-neutral-700 m-3 justify-center">
+                               <p class="flex  justify-center mt-3 text-center text-xl font-semibold">Normal attack</p> 
+                               <p class="flex  justify-center my-3 text-center text-3xl font-bold text-red-400">0/10</p> 
+                            </div>
+                            <div class="flex flex-col h-32 lg:w-1/3 bg-neutral-700 m-3 justify-center ">
+                                <p class="flex  justify-center mt-3 text-center text-xl font-semibold">Elemental Skill</p> 
+                                <p class="flex  justify-center my-3 text-center text-3xl font-bold text-green-400">10/10</p> 
+                             </div>
+                             <div class="flex flex-col h-32 lg:w-1/3 bg-neutral-700 m-3 justify-center">
+                                <p class="flex justify-center mt-3 text-center text-xl font-semibold">Elemental Burst</p> 
+                                <p class="flex justify-center my-3 text-center text-3xl font-bold text-yellow-400">5/10</p> 
+                             </div>
+                        </div>
                 </div>
                 <!--Weapons-->
-                <div  id="weapons" class="flex flex-col mt-10 text-center">
-                    <p class="bg-neutral-700 p-5 text-3xl text-center">Weapons</p>
-                    <div class="flex flex-col m-5">
-
-                        <div class="flex flex-row border-x-2 border-t-2 border-collapse border-geo">
+                <div  id="weapons" class="flex flex-col mt-14 text-center border border-geo">
+                    <p class="bg-geo p-5 w-full text-3xl text-center">Weapons</p>
+                    <div class="flex flex-col text-lg justify-center">
+                        <div class="flex flex-row border-t-2 border-geo">
                             <div class="flex flex-col border-r-2 border-collapse border-geo">
                                 <img src="/weaponIcons/Weapon_Uraku_Misugiri.webp" class="w-52" alt="Uraku Misugiri">
                                 <p class="align-middle semibold flex justify-center p-2">Uraku Misugiri</p>
@@ -133,82 +159,83 @@
                                      Albedo unless you do not have Cinnabar Spindle.</p>
                             </div>    
                         </div>
-                        <div class="flex flex-row border-x-2 border-t-2 border-collapse border-geo">
+                        <div class="flex flex-row  border-t-2 border-geo"">
                             <div class="flex flex-col border-r-2 border-collapse border-geo">
                                 <img src="/weaponIcons/cinnabar-spindle.png" class="w-52" alt="Cinnbar Spindle">
                                 <p class="align-middle semibold flex justify-center p-2">Cinnabar Spindle</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
-                                <p>Albedo's recommended weapon if you have it. Provides large amounts of Def% and increases skill damage based on defense. This weapon was made exclusively for Albedo.</p>
+                                <p>Albedo's recommended weapon if you have it. Provides large amounts of DEF% and increases skill damage based on defense. This weapon was made exclusively for Albedo.</p>
                             </div>
                         </div>
-                        <div class="flex flex-row border-x-2 border-t-2 border-collapse border-geo">
+                        <div class="flex flex-row  border-t-2 border-geo"">
                             <div class="flex flex-col border-r-2 border-geo">
                                 <img src="/weaponIcons/harbinger-of-dawn.png" class="w-52" alt="Harbinger of Dawn">
                                 <p class="align-middle semibold flex justify-center p-2">Harbinger of Dawn</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
-                                <p>Best F2P weapon for those who missed out on Cinnabar Spindle. This weapon is a crit stat-stick with low base attack, which is perfect since Albedo scales on defense.</p>
+                                <p>Best F2P weapon for those who missed out on Cinnabar Spindle. This weapon is a crit
+                                     stat-stick with low base attack, which is perfect since Albedo's skill scales on defense.</p>
                             </div>
                         </div>
-                        <div class="flex flex-row border-2 border-collapse border-geo">
+                        <div class="flex flex-row border-t-2 border-geo">
                             <div class="flex flex-col border-r-2 border-geo">
                                 <img src="/weaponIcons/mistsplitter-reforged.png" class="w-52" alt="Any 5* Sword">
                                 <p class="align-middle semibold flex justify-center p-2">Any 5* Sword</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
-                                <p>Any 5* sword is ok on Albedo. These weapons are stronger than Harbinger of Dawn when Albedo is played as an On-Field Carry.</p>
+                                <p>Any 5* sword is ok on Albedo. These weapons are stronger than Harbinger of 
+                                    Dawn when Albedo is played as an on-field carry.</p>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-                <div  id="artifacts" class="flex flex-col mt-10 text-center">
-                    <p class="bg-neutral-700 p-5 text-3xl text-center">Artifacts</p>
-                    <div class="flex flex-col m-5 justify-center">
-                        <div class="md:flex-row flex-col text-middle justify-center p-5 ">
-                            <div class="flex flex-col w-1/3 mx-5 bg-neutral-600 m-1">
-                                <p class="p-3">Sands</p>
-                                <p class="p-3">DEF%</p>
-                            </div>
-                            <div class="flex flex-col w-1/3 mx-5 bg-neutral-600">
-                                <p class="p-3">Goblet</p>
-                                <p class="p-3" >Geo Damage</p>
-                            </div>
-                            <div class="flex flex-col w-1/3 mx-5 bg-neutral-600">
-                                <p class="p-3">Circlet</p>
-                                <p class="p-3">CRIT Rate/DMG, DEF%</p>
-                            </div>
+                <!--Artifacts-->
+                <div  id="artifacts" class="flex flex-col mt-14 text-center border-2 border-geo">
+                    <p class="bg-geo p-5 text-3xl w-full text-center font-bold">Artifact Stats</p>
+                    <div class="flex flex-col  lg:flex-row justify-center ">
+                        <div class="flex flex-col h-32 lg:w-1/3 bg-neutral-700 m-3 justify-center">
+                             <p class="flex  justify-center mt-3 text-center text-2xl ">Sands</p> 
+                            <p class="flex  justify-center my-3 text-center text-3xl font-bold ">DEF%</p> 
                         </div>
-                        <p class="text-2xl pb-10">Substats:&emsp; CRIT Rate/DMG > DEF% > ATK%* > Energy Recharge* </p>
-                        <div class="flex flex-row border-x-2 border-t-2 border-collapse border-geo">
-                            <div class="flex flex-col border-r-2 border-collapse border-geo">
-                                <img src="/artifactIcons/husk-of-opulent-dreams-flower.png" class="w-52" alt="Husk of Opulent Dreams">
-                                <p class="align-middle semibold flex justify-center p-2">Husk of Opulent Dreams</p>
-                            </div>
-                            <div class="flex w-full bg-neutral-800 items-center p-4">
-                                <p>Slightly better if you are using Harbinger of dawn. Better if you are playing Albedo on-field. </p>
-                            </div>    
+                        <div class="flex flex-col h-32 lg:w-1/3 bg-neutral-700 m-3 justify-center ">
+                             <p class="flex  justify-center mt-3 text-center text-2xl ">Goblet</p> 
+                             <p class="flex  justify-center my-3 text-center text-3xl font-bold ">Geo Damage</p> 
+                         </div>
+                         <div class="flex flex-col h-32 lg:w-1/3 bg-neutral-700 m-3 justify-center">
+                             <p class="flex justify-center mt-3 text-center text-2xl ">Circlet</p> 
+                             <p class="flex justify-center my-3 text-center text-3xl font-bold ">CRIT Rate/DMG, DEF%</p> 
                         </div>
-                        <div class="flex flex-row border border-t-2 border-collapse border-geo">
-                            <div class="flex flex-col border-r-2 border-collapse border-geo">
-                                <img src="/artifactIcons/goldenTroupeFlower.webp" class="w-52" alt="Golden Troupe">
-                                <p class="align-middle semibold flex justify-center p-2">Golden Troupe</p>
-                            </div>
-                            <div class="flex w-full bg-neutral-800 items-center p-4">
-                                <p>Slightly better if you are using Cinnabar Spindle and/or have high defense (Gorou, Def% mainstats)</p>
-                            </div>    
-                        </div>
-                        
-                        
                     </div>
+
+                    <p class="text-2xl p-5 bg-neutral-700 mx-3 mb-3 text-center align-middle">
+                        Substats:&emsp; CRIT Rate/DMG > DEF% > ATK%* > Energy Recharge* </p>
+                        
+                    <div class="flex flex-row border-t-2 border-collapse border-geo">
+                        <div class="flex flex-col border-r-2 border-collapse border-geo">
+                            <img src="/artifactIcons/husk-of-opulent-dreams-flower.png" class="w-52" alt="Husk of Opulent Dreams">
+                            <p class="align-middle semibold flex justify-center p-2">Husk of Opulent Dreams</p>
+                        </div>
+                        <div class="flex w-full bg-neutral-800 items-center p-4">
+                            <p>Slightly better if you are using Harbinger of dawn. Better if you are playing Albedo on-field. </p>
+                        </div>    
+                    </div>
+                    <div class="flex flex-row border-t-2 border-collapse border-geo">
+                        <div class="flex flex-col border-r-2 border-collapse border-geo">
+                            <img src="/artifactIcons/goldenTroupeFlower.webp" class="w-52" alt="Golden Troupe">
+                            <p class="align-middle semibold flex justify-center p-2">Golden Troupe</p>
+                        </div>
+                        <div class="flex w-full bg-neutral-800 items-center p-4">
+                            <p>Slightly better if you are using Cinnabar Spindle and/or have high defense (Gorou, Def% mainstats)</p>
+                        </div>    
+                    </div>        
                 </div>
                 
-
             </div>
 
             <!--Right-->
-            <div class="md:w-1/6 text-white text-center">
+            <div class="lg:w-1/6 w-full text-white text-center">
                 <div class="flex flex-col text-center w-full mx-auto">
                     asda
                 </div>    
