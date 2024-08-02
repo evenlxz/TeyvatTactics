@@ -522,11 +522,11 @@ function buildTable(){
         const character = characters[i];
         const card = document.createElement("a");
 
-        card.className = "bg-neutral-800 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg p-4 flex flex-col items-center";
+        card.className = "bg-neutral-800 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg items-center";
         card.setAttribute("id", character.name);
         card.setAttribute("href", "./characterGuides/" +character.name + "Guide.html");
         
-        card.style = "height: 17rem; width: 16rem; ";
+        card.style = "width: 17rem; height:17rem; padding: 2px; text-align:center; display: flex; justify-content:center; align-items: center; ";
 
         const rolesHTML = character.roles.map(role => `
             <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">

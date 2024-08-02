@@ -12,13 +12,13 @@
 </head>
 <body>
     
-    <div class="bg-neutral-800 pt-5 min-h-screen py-3">
+    <div class="bg-neutral-900 pt-5  min-w-screen min-h-screen py-3">
 
         <!--Navbar-->
-        <nav class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
+        <nav class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-800 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
             <div class="flex items-center align-middle text-center justify-center">
                 <img class="h-16 w-16 me-2" src="characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
-                <a href="#top" class="bg-neutral-900 h-full text-2xl font-bold" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
+                <a href="#top" class=" h-full text-2xl font-bold" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
             </div>
             <div class="hidden md:flex md:flex-row gap-2 items-center">
                 <button class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-youtube pe-2 hidden md:inline"></div>Youtube</button>
@@ -29,7 +29,7 @@
                 <button class="text-white text-3xl focus:outline-none" onclick="toggleNav()">☰</button>
             </div>
         </nav>
-    
+        
         <nav id="mobileMenu" class="menu-items bg-neutral-900 md:hidden flex-col gap-2 p-4 fixed top-16 w-full text-white hidden">
             <button class="bg-red-600 h-13 p-3 rounded-sm text-lg text-center">
                 <div class="fa-brands fa-youtube pe-2 inline"></div>Youtube
@@ -37,23 +37,39 @@
             <button class="bg-discord h-13 p-3 rounded-sm text-lg text-center"><div class="fa-brands fa-discord pe-2 inline"></div>Discord</button>
             <button class="bg-twitter h-13 p-3 rounded-sm text-lg text-center"><div class="fa-brands fa-x-twitter pe-2 inline"></div>Twitter</button>
         </nav>
+        
        
+        <!--Main Content-->
+       <div class="bg-neutral-900 my-14 flex flex-col flex-grow justify-center rounded-md">
 
-       <div class="bg-neutral-700 mx-20 my-14 flex flex-col flex-grow justify-center rounded-md">
-
-            <div class="bg-neutral-700 flex flex-row text-black text-lg p-3 items-center rounded-md justify-center">
+            <div class="flex flex-row text-black text-lg p-3 items-center rounded-md justify-center">
                 <input class="my-4  mx-2 p-1 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
             </div>
-            
 
-
-            <div id="characterCardsGrid" class="flex flex-row flex-wrap gap-3 mx-auto justify-center pb-5">
-                
-                <!--Cards-->
+            <div class="flex flex-row ">
+                <!--Left Col-->
+                <div class="flex flex-col flex-grow w-1/12">
                     
-            
+
+                </div>
+
+                <!--Middle Col-->
+                <div class="flex flex-col w-10/12 text-center bg-neutral-700 py-10 justify-center">
+                    <div id="characterCardsGrid" class="flex flex-wrap gap-3 justify-center">
+                    
+                        <!--Cards-->
+                            
+                    
+                    </div>
+                </div>
+
+                <!--Right Col-->
+                <div class="flex flex-col w-1/12">
+                    
+
+                </div>
             </div>
-        
+            
        </div>
        
     
