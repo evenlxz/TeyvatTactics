@@ -909,6 +909,11 @@ video {
   background-color: rgb(163 163 163 / var(--tw-bg-opacity));
 }
 
+.bg-neutral-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 82 82 / var(--tw-bg-opacity));
+}
+
 .bg-neutral-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
@@ -972,6 +977,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -995,6 +1004,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-3 {
