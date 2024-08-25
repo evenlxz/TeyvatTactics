@@ -526,7 +526,7 @@ function buildTable(){
         card.setAttribute("id", character.name);
         card.setAttribute("href", "./characterGuides/" +character.name + "Guide.html");
         
-        card.style = "width: 17rem; height:17rem; padding: 2px; text-align:center; display: flex; justify-content:center; align-items: center; ";
+        card.style = "width: 17rem; height:17rem; padding: 2px; padding-top: 20px; text-align:center; display: flex; justify-content:center; align-items: center; ";
 
         const rolesHTML = character.roles.map(role => `
             <div class="text-sm text-center align-middle items-center h-5 px-3 bg-neutral-400 rounded-md">
