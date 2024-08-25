@@ -32,7 +32,7 @@ const characters = [
     },
     {
         name: "Arlecchino",
-        src: "characterIcons/ui-avataricon-arlecchino.png",
+        src: "characterIcons/ui-avatarIcon-arlecchino.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"]
     },
@@ -159,7 +159,7 @@ const characters = [
     },
     {
         name: "Gaming",
-        src: "characterIcons/UI_Avataricon_Gaming.png",
+        src: "characterIcons/UI_AvatarIcon_Gaming.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"]
     },
@@ -292,7 +292,7 @@ const characters = [
     },
     {
         name: "Navia",
-        src: "characterIcons/navia_icon.webp",
+        src: "characterIcons/Navia_Icon.webp",
         element: "Geo",
         roles: ["On-Field", "DPS", "Off-Field"]
     },
