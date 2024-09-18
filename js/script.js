@@ -387,31 +387,31 @@ const characters = [
         roles: ["Shielder" , "Support", "Off-Field"]
     },
     {
-        name: "Traveler (Anemo)",
+        name: "Anemo Traveler",
         src: "characterIcons/Aether_Icon.webp",
         element: "Anemo",
         roles: [ "Grouper", "Support"]
     },
     {
-        name: "Traveler (Geo)",
+        name: "Geo Traveler",
         src: "characterIcons/Aether_Icon.webp",
         element: "Geo",
         roles: ["DPS", "Support"]
     },
     {
-        name: "Traveler (Electro)",
+        name: "Electro Traveler",
         src: "characterIcons/Aether_Icon.webp",
         element: "Electro",
         roles: ["Support"]
     },
     {
-        name: "Traveler (Dendro)",
+        name: "Dendro Traveler",
         src: "characterIcons/Aether_Icon.webp",
         element: "Dendro",
         roles: ["Support", "Off-Field"]
     },
     {
-        name: "Traveler (Hydro)",
+        name: "Hydro Traveler",
         src: "characterIcons/Aether_Icon.webp",
         element: "Hydro",
         roles: ["DPS"]
@@ -495,7 +495,7 @@ const characters = [
         roles: ["DPS", "On-Field"]
     },
     {
-        name: "Yun jin",
+        name: "Yun Jin",
         src: "characterIcons/ui-avataricon-yunjin.png",
         element: "Geo",
         roles: ["Support"]
@@ -524,7 +524,8 @@ function buildTable(){
 
         card.className = "bg-neutral-800 rounded-md border border-black hover:border-white hover:cursor-pointer shadow-lg items-center";
         card.setAttribute("id", character.name);
-        card.setAttribute("href", "./characterGuides/" +character.name + "Guide.html");
+        card.setAttribute("href", "./characterGuides/" +character.name.replace(/ /g, "") + "Guide.html");
+        
         
         card.style = "width: 17rem; height:17rem; padding: 2px; padding-top: 20px; text-align:center; display: flex; justify-content:center; align-items: center; ";
 
