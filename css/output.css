@@ -788,6 +788,10 @@ video {
   flex-wrap: wrap;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -872,6 +876,11 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-dendro {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 138 0 / var(--tw-border-opacity));
 }
 
 .border-geo {
@@ -1082,6 +1091,11 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-dendro {
+  --tw-text-opacity: 1;
+  color: rgb(96 138 0 / var(--tw-text-opacity));
 }
 
 .text-geo {
