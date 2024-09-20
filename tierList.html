@@ -12,7 +12,7 @@
 
     <title>TeyvatTactics</title>
     <meta name = "description" content="Home for Genshin Impact character guides! Guides are currently under construction">
-    <meta name = "keywords" content="genshin, genshin builds, genshin tips, genshin impact guides, genshin impact characters">
+    <meta name = "keywords" content="teyvat, teyvat tactics, genshin tactics, genshin tier-list, best genshin, genshin, genshin builds, genshin tips, genshin impact guides, genshin impact characters">
 
 </head>
 <!-- Google tag (gtag.js) -->
@@ -29,12 +29,16 @@
     <div class="bg-neutral-800 pt-5  min-w-screen min-h-screen py-3">
 
         <!--Navbar-->
-        <nav class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
+        <nav id="navbar" class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
             <div class="flex items-center align-middle text-center justify-center">
                 <img class="h-16 w-16 me-2" src="characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
-                <a href="#top" class=" h-full text-2xl font-bold mx-3" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
-                <a href="/index.html" class="lg:flex justify-center hidden text-white p-5"> Home</a>
-                <a href="/tierList.html" class="lg:flex justify-center hidden text-white p-5">Tier List</a>
+                <a href="#top" class=" h-full text-3xl font-bold mx-3" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
+                <a href="/index.html" class="lg:flex justify-center hidden text-white text-lg p-5"> Home</a>
+                <a href="/tierList.html" class="lg:flex justify-center hidden text-white text-lg p-5">Tier List</a>
+                <a href="/talentFarming.html" class="lg:flex justify-center hidden text-white text-lg p-5">Talents</a>
+                <a href="/abyssTips.html" class="lg:flex justify-center hidden text-white text-lg p-5">Abyss Tips</a>
+
+
                 
 
 
@@ -49,7 +53,7 @@
             </div>
         </nav>
         
-        <nav id="mobileMenu" class="menu-items bg-neutral-900 md:hidden flex justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
+        <nav id="mobileNav" class="menu-items bg-neutral-900 md:hidden flex justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
             <a  href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 my-1 rounded-sm text-lg text-center">
                 <div class="fa-brands fa-youtube pe-2 inline"></div>Youtube
             </a>
@@ -65,9 +69,7 @@
         <!--Main Content-->
        <div class="bg-neutral-800 my-14 flex flex-col flex-grow justify-center rounded-md">
 
-            <div class="flex flex-row text-black text-lg p-3 items-center rounded-md justify-center">
-                <input class="my-4  mx-2 p-1 lg:w-96 h-12 rounded-md " id="searchBar" name = "searchBar" type="search" placeholder="Search Characters">
-            </div>
+           
 
             <div class="flex flex-row ">
                 <!--Left Col-->
@@ -78,19 +80,45 @@
 
                 <!--Middle Col-->
                 <div class="flex flex-col w-10/12 text-center bg-neutral-700 p-3 justify-center">
-                    <div class="flex flex-col ">
-                        <div class="flex flex-row items-center bg-neutral-600 ">
-                            <div class="flex justify-center items-center bg-yellow-300 text-7xl w-36 h-28 m-3 text-black">
-                                <span>S</span>
-                            </div>
-                            <img src="characterIcons/ui-avataricon-kazuha.png" class="w-28 h-28 m-3" alt="Kazuha">
-                            <img src="characterIcons/ui-avataricon-xingqiu.png" class="w-28 h-28 m-3" alt="Xinqiu">
-                            <img src="characterIcons/ui-avataricon-nahida.png" class="w-28 h-28 m-3" alt="Nahida">
-                            <img src="characterIcons/ui-avataricon-yelan.png" class="w-28 h-28 m-3" alt="Yelan">
-                            <img src="characterIcons/ui-avataricon-bennett.png" class="w-28 h-28 m-3" alt="Bennett">
-
+                    <div class="flex flex-row">
+                        <div class="h-full w-44 bg-orange-400 flex justify-center items-center ">
+                            <span class="font-bold text-3xl p-5">S-Tier</span>
                         </div>
+
+                        <div class="flex flex-row flex-wrap">
+                        
+                            <a class="w-36 mx-3"href="characterGuides/BennettGuide.html"><img src="characterIcons/ui-avataricon-bennett.png" alt="Bennett"></a>
+                            <a class="w-36 mx-3"href="characterGuides/XianglingGuide.html"><img src="characterIcons/ui-avataricon-xiangling.png" alt="Xiangling"></a>
+                            <a class="w-36 mx-3"href="characterGuides/YelanGuide.html"><img src="characterIcons/ui-avataricon-yelan.png" alt="Yelan"></a>
+                            <a class="w-36 mx-3"href="characterGuides/xinqiuGuide.html"><img src="characterIcons/ui-avataricon-xingqiu.png" alt="Xinqiu"></a>
+                            <a class="w-36 mx-3"href="characterGuides/nahidaGuide.html"><img src="characterIcons/ui-avataricon-nahida.png" alt="Nahida"></a>
+                            <a class="w-36 mx-3"href="characterGuides/kazuhaGuide.html"><img src="characterIcons/ui-avataricon-kazuha.png" alt="Kazuha"></a>
+                            <a class="w-36 mx-3"href="characterGuides/neuvilletteGuide.html"><img src="characterIcons/ui-avataricon-neuvillette.png" alt="Neuvillette"></a>
+                            <a class="w-36 mx-3"href="characterGuides/kukiShinobuGuide.html"><img src="characterIcons/ui-avataricon-shinobu.png" alt="Kuki Shinobu"></a>
+
+
+
+
+
+
                     </div>
+                    </div>
+                    
+
+
+                        
+                    
+
+
+                            
+                        
+
+                    
+
+                    
+
+
+
                 </div>
 
                 <!--Right Col-->

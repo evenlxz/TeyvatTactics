@@ -25,30 +25,31 @@
 <body>
     <div class="bg-red-500 min-w-screen min-h-screen">
         <!--Navbar-->
-        <nav class="sticky top-0 h-16 z-10 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
+        <nav id="navbar" class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
             <div class="flex items-center align-middle text-center justify-center">
-                <img class="h-16 w-16 me-2" src="/characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
-                <a href="#top" class="bg-neutral-900 h-full text-2xl font-bold mx-3" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
-                <a href="/index.html" class="lg:flex justify-center hidden text-white p-5"> Home</a>
-                <a href="/tierList.html" class="lg:flex justify-center hidden text-white p-5">Tier List</a>
+                <img class="h-16 w-16 me-2" src="characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
+                <a href="#top" class=" h-full text-3xl font-bold mx-3" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
+                <a href="/index.html" class="lg:flex justify-center hidden text-white text-lg p-5"> Home</a>
+                <a href="/tierList.html" class="lg:flex justify-center hidden text-white text-lg p-5">Tier List</a>
+                <a href="/talentFarming.html" class="lg:flex justify-center hidden text-white text-lg p-5">Talents</a>
+                <a href="/abyssTips.html" class="lg:flex justify-center hidden text-white text-lg p-5">Abyss Tips</a>
+
+
+                
+
+
             </div>
             <div class="hidden md:flex md:flex-row gap-2 items-center">
-                <a href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center">
-                    <div class="fa-brands fa-youtube pe-2 hidden md:inline"></div>Youtube
-                </a>
-                <a href="https://discord.gg/EcXsT8wu62" target="_blank" class="bg-discord h-13 p-3 rounded-sm text-middle text-lg text-center">
-                    <div class="fa-brands fa-discord pe-2 hiden md:inline"></div>Discord
-                </a>
-                <a href="https://x.com/TeyvatTactics" target="_blank" class="bg-twitter h-13 p-3 rounded-sm text-middle text-lg text-center">
-                    <div class="fa-brands fa-x-twitter pe-2 hidden md:inline"></div>Twitter
-                </a>
+                <a href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-youtube pe-2 hidden md:inline"></div>Youtube</a>
+                <a href ="https://discord.gg/EcXsT8wu62" target="_blank" class="bg-discord h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-discord pe-2 hidden md:inline"></div>Discord</a>
+                <a href="https://x.com/TeyvatTactics" target="_blank" class="bg-twitter h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-x-twitter pe-2 hidden md:inline"></div>Twitter</a>
             </div>
             <div class="flex md:hidden">
                 <button class="text-white text-3xl focus:outline-none" onclick="toggleNav()">☰</button>
             </div>
         </nav>
-
-        <nav id="mobileMenu" class="menu-items bg-neutral-900 md:hidden flex justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
+        
+        <nav id="mobileNav" class="menu-items bg-neutral-900 md:hidden flex justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
             <a  href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 my-1 rounded-sm text-lg text-center">
                 <div class="fa-brands fa-youtube pe-2 inline"></div>Youtube
             </a>
