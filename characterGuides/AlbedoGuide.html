@@ -13,6 +13,15 @@
 
     <title>AlbedoGuide</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JH4HMSQ6MF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JH4HMSQ6MF');
+</script>
 <body>
     <div class="bg-red-500 min-w-screen min-h-screen">
         <!--Navbar-->
@@ -22,31 +31,31 @@
                 <a href="/index.html" class="bg-neutral-900 h-full text-2xl font-bold" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
             </div>
             <div class="hidden md:flex md:flex-row gap-2 items-center">
-                <button class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center">
+                <a href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center">
                     <div class="fa-brands fa-youtube pe-2 hidden md:inline"></div>Youtube
-                </button>
-                <button class="bg-discord h-13 p-3 rounded-sm text-middle text-lg text-center">
+                </a>
+                <a href="https://discord.gg/EcXsT8wu62" target="_blank" class="bg-discord h-13 p-3 rounded-sm text-middle text-lg text-center">
                     <div class="fa-brands fa-discord pe-2 hiden md:inline"></div>Discord
-                </button>
-                <button class="bg-twitter h-13 p-3 rounded-sm text-middle text-lg text-center">
+                </a>
+                <a href="https://x.com/TeyvatTactics" target="_blank" class="bg-twitter h-13 p-3 rounded-sm text-middle text-lg text-center">
                     <div class="fa-brands fa-x-twitter pe-2 hidden md:inline"></div>Twitter
-                </button>
+                </a>
             </div>
             <div class="flex md:hidden">
                 <button class="text-white text-3xl focus:outline-none" onclick="toggleNav()">☰</button>
             </div>
         </nav>
 
-        <nav id="mobileMenu" class="menu-items bg-neutral-900 md:hidden flex-col gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
-            <button class="bg-red-600 h-13 p-3 rounded-sm text-lg text-center">
+        <nav id="mobileMenu" class="menu-items bg-neutral-900 md:hidden flex justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
+            <a  href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 my-1 rounded-sm text-lg text-center">
                 <div class="fa-brands fa-youtube pe-2 inline"></div>Youtube
-            </button>
-            <button class="bg-discord h-13 p-3 rounded-sm text-lg text-center">
+            </a>
+            <a href="https://discord.gg/EcXsT8wu62" target="_blank" class="bg-discord h-13 p-3 mx-1 my-1 rounded-sm text-lg text-center">
                 <div class="fa-brands fa-discord pe-2 inline"></div>Discord
-            </button>
-            <button class="bg-twitter h-13 p-3 rounded-sm text-lg text-center">
+            </a>
+            <a href="https://x.com/TeyvatTactics" target="_blank" class="bg-twitter h-13 p-3 my-1 rounded-sm text-lg text-center">
                 <div class="fa-brands fa-x-twitter pe-2 inline"></div>Twitter
-            </button>
+            </a>
         </nav>
 
         <!--Body-->
@@ -154,7 +163,7 @@
                     <div class="flex flex-col text-lg justify-center">
                         <div class="flex flex-row border-t-2 border-geo">
                             <div class="flex flex-col border-r-2 border-collapse border-geo">
-                                <img src="/weaponIcons/Weapon_Uraku_Misugiri.webp" class="w-52" alt="Uraku Misugiri">
+                                <img src="/weaponIcons/Weapon_Uraku_Misugiri.webp" class="w-52 align-middle" alt="Uraku Misugiri">
                                 <p class="align-middle semibold flex justify-center p-2">Uraku Misugiri</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
@@ -164,7 +173,7 @@
                         </div>
                         <div class="flex flex-row  border-t-2 border-geo">
                             <div class="flex flex-col border-r-2 border-collapse border-geo">
-                                <img src="/weaponIcons/cinnabar-spindle.png" class="w-52" alt="Cinnbar Spindle">
+                                <img src="/weaponIcons/cinnabar-spindle.png" class="w-52 align-middle" alt="Cinnbar Spindle ">
                                 <p class="align-middle semibold flex justify-center p-2">Cinnabar Spindle</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
@@ -173,7 +182,7 @@
                         </div>
                         <div class="flex flex-row  border-t-2 border-geo">
                             <div class="flex flex-col border-r-2 border-geo">
-                                <img src="/weaponIcons/harbinger-of-dawn.png" class="w-52" alt="Harbinger of Dawn">
+                                <img src="/weaponIcons/harbinger-of-dawn.png" class="w-52 align-middle" alt="Harbinger of Dawn">
                                 <p class="align-middle semibold flex justify-center p-2">Harbinger of Dawn</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
@@ -183,7 +192,7 @@
                         </div>
                         <div class="flex flex-row border-t-2 border-geo">
                             <div class="flex flex-col border-r-2 border-geo">
-                                <img src="/weaponIcons/mistsplitter-reforged.png" class="w-52" alt="Any 5* Sword">
+                                <img src="/weaponIcons/mistsplitter-reforged.png" class="w-52 align-middle" alt="Any 5* Sword">
                                 <p class="align-middle semibold flex justify-center p-2">Any 5* Sword</p>
                             </div>
                             <div class="flex w-full bg-neutral-800 items-center p-4">
@@ -219,7 +228,7 @@
                         
                     <div class="flex flex-row border-t-2 border-collapse border-geo">
                         <div class="flex flex-col border-r-2 border-collapse border-geo">
-                            <img src="/artifactIcons/husk-of-opulent-dreams-flower.png" class="min-w-52" alt="Husk of Opulent Dreams">
+                            <img src="/artifactIcons/husk-of-opulent-dreams-flower.png" class="min-w-52 align-middle" alt="Husk of Opulent Dreams">
                             <p class="align-middle semibold flex justify-center p-2">Husk of Opulent Dreams</p>
                         </div>
                         <div class="flex w-full bg-neutral-800 items-center p-4">
@@ -228,7 +237,7 @@
                     </div>
                     <div class="flex flex-row border-t-2 border-collapse border-geo ">
                         <div class="flex flex-col border-r-2 border-collapse border-geo">
-                            <img src="/artifactIcons/goldenTroupeFlower.webp" class="min-w-52" alt="Golden Troupe">
+                            <img src="/artifactIcons/goldenTroupeFlower.webp" class="min-w-52 align-middle" alt="Golden Troupe">
                             <p class="align-middle semibold flex justify-center p-2">Golden Troupe</p>
                         </div>
                         <div class="flex w-full bg-neutral-800 items-center p-4">
