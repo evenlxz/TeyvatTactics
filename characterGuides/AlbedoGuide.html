@@ -27,7 +27,7 @@
         <!--Navbar-->
         <nav id="navbar" class="fixed top-0 h-16 flex flex-row justify-between items-center bg-neutral-900 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
             <div class="flex items-center align-middle text-center justify-center">
-                <img class="h-16 w-16 ms-2" src="characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
+                <img class="h-16 w-16 ms-2" src="/characterIcons/dehyaEmoji.webp" alt="DehyaEmoji">
                 <a href="#top" class=" flex justify-start h-full text-3xl font-bold mx-3" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
                 <a href="/index.html" class="lg:flex justify-center hidden text-white text-lg p-5"> Home</a>
                 <a href="/tierList.html" class="lg:flex justify-center hidden text-white text-lg p-5">Tier List</a>
@@ -35,18 +35,17 @@
                 <a href="/abyssTips.html" class="lg:flex justify-center hidden text-white text-lg p-5">Abyss Tips</a>
 
             </div>
-            <div class="hidden md:flex md:flex-row gap-2 items-center">
-                <div class="text-white text-lg mx-2">Socials</div>
+            <div class="hidden xl:flex xl:flex-row gap-2 items-center">
                 <a href="https://www.youtube.com/channel/UCrDvYvwCD7e81g3oKAdXYAw" target="_blank" class="bg-red-600 h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-youtube pe-2 hidden md:inline"></div>Youtube</a>
                 <a href ="https://discord.gg/EcXsT8wu62" target="_blank" class="bg-discord h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-discord pe-2 hidden md:inline"></div>Discord</a>
                 <a href="https://x.com/TeyvatTactics" target="_blank" class="bg-twitter h-13 p-3 rounded-sm text-middle text-lg text-center"><div class="fa-brands fa-x-twitter pe-2 hidden md:inline"></div>Twitter</a>
             </div>
-            <div class="flex md:hidden">
+            <div class="flex xl:hidden">
                 <button class="text-white text-3xl focus:outline-none" onclick="toggleNav()">☰</button>
             </div>
         </nav>
         
-        <nav id="mobileNav" class="menu-items bg-neutral-900 md:hidden  flex flex-col justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
+        <nav id="mobileNav" class="menu-items bg-neutral-900 lg:hidden flex flex-col justify-center gap-2 p-4 sticky z-10 top-16 w-full text-white hidden">
             <div class="flex flex-row justify-center items-center h-5">
                 <a href="/index.html" class="flex justify-center items-center text-white text-lg p-3 rounded-sm me-1 mb-4 bg-neutral-800"> Home</a>
                 <a href="/tierList.html" class="flex justify-center items-center text-white text-lg rounded-sm p-3 me-1 mb-4 bg-neutral-800">Tier List</a>
@@ -70,19 +69,17 @@
         <div class="bg-neutral-800 min-w-full min-h-full flex flex-col flex-grow lg:flex-row">
             <!--Left-->
             <div class="lg:w-1/6 flex w-full text-white align-middle text-center">
-                
                 <div class="overflow-y-scroll custom-scrollbar bg-neutral-600 flex flex-col 
-                 h-96 sticky top-16 w-full mx-auto lg:w-5/6 lg:top-32 lg:mt-16 ">
-                    <p class="p-5 sticky top-0 bg-geo font-bold text-lg">Table of Contents </p>
-                    <a href="#generalInfo" class="p-5">General Info</a>
-                    <a href="#prosAndCons" class="p-5">Pros and Cons</a>
-                    <a href="#howToPlay" class="p-5">How to Play</a>
-                    <a href="#talents" class="p-5">Talents</a>
-                    <a href="#weapons" class="p-5">Weapons</a>
-                    <a href="#artifacts" class="p-5">Artifacts</a>
-                    <a href="#teamCompositions" class="p-5">Team Compositions</a>
+                 h-96 lg:sticky mt-16 w-full mx-auto lg:w-5/6 lg:top-32 lg:mt-16 border-2 border-neutral-900">
+                    <p class="p-5 lg:sticky lg:top-0 bg-geo font-bold text-lg ">Table of Contents </p>
+                    <a href="#generalInfo" class="p-5 bg-neutral-600">General Info</a>
+                    <a href="#prosAndCons" class="p-5 bg-neutral-700">Pros and Cons</a>
+                    <a href="#howToPlay" class="p-5 bg-neutral-600">How to Play</a>
+                    <a href="#talents" class="p-5 bg-neutral-700" >Talents</a>
+                    <a href="#weapons" class="p-5 bg-neutral-600">Weapons</a>
+                    <a href="#artifacts" class="p-5 bg-neutral-700">Artifacts</a>
+                    <a href="#teamCompositions" class="p-5 bg-neutral-600">Team Compositions</a>
                 </div>
-                
             </div>
             <!--Center-->
             <div class="bg-neutral-800 w-full lg:w-4/6 flex flex-col flex-grow p-6  text-white">
@@ -101,7 +98,7 @@
                          can support most characters through off-field damage, <span class="text-geo font-semibold">geo</span>-resonance,
                          and elemental mastery buffing.
                     </p> 
-                    <p></p>
+                    <p>
                 </div>
                 <!--Pros and Cons-->
                 <div id="prosAndCons" class="my-5">
