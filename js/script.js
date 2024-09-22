@@ -236,7 +236,7 @@ const characters = [
         roles: ["DPS", "On-Field"]
     },
     {
-        name: "Kujo Sara",
+        name: "Kujou Sara",
         src: "characterIcons/ui-avataricon-sara.png",
         element: "Electro",
         roles: ["Support"]
