@@ -489,7 +489,7 @@ const characters = [
         roles: ["DPS", "Support", "Off-Field"]
     },
     {
-        name: "Yomiya",
+        name: "Yoimiya",
         src: "characterIcons/ui-avataricon-yoimiya.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"]
