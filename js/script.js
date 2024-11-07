@@ -701,24 +701,30 @@ function buildTable(){
             const image = document.createElement("img")
             const element = document.createElement("img");
 
-            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; text-align:center; justify-content: center; width: 10rem; height:10rem; background-color: #D1D5DB;"
+            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; text-align:center; justify-content: center; width: 10rem;"
             card.setAttribute("href", character.guideSrc);
 
             element.setAttribute("src", "elementIcons/" + character.element.toLowerCase() +".png");
-            element.style = "position: absolute; top: -10%; left: 0%; width: 2rem;"
+            element.style = "position: absolute; top:  0%; left: 0%; width: 2rem;"
 
-            name.style = "width: 100%; text-align: center; font-size: 1.3rem; color:white; font-weight: bold; color: white; text-shadow: 2px 2px 5px #000000;"
-            name.classList.add("bg-" + character.element.toLowerCase());
+            name.style = "width: 100%; text-align: center; font-size: 1.3rem;  color:black; font-weight: 700;"
+            //name.classList.add("bg-" + character.element.toLowerCase());
             name.innerHTML = character.name;
 
             image.setAttribute("src", character.src);
-            image.style= "display: flex; justify-content: center; width: 100%;"
+            image.style= "display: flex; justify-content: center; width: 100%; border: 1px solid black;"
+            
             if(character.rarity == 5){
-                image.style = "background: linear-gradient(135deg, #f4d03f, #b9842f);";
+                image.style.background = "linear-gradient(135deg, #f4d03f, #b9842f)";
             } else{
-                image.style = "background: linear-gradient(135deg, #9b59b6, #8e44ad); ";
+                image.style.background = "linear-gradient(135deg, #9b59b6, #8e44ad)";
             }
-
+            image.addEventListener("mouseover", function () {
+                image.style.borderColor = "gold";
+            });
+            image.addEventListener("mouseout", function () {
+                image.style.borderColor = "black";
+            });
             //card.appendChild(name);
             card.appendChild(image);
             card.appendChild(name);
@@ -751,6 +757,7 @@ searchBar.addEventListener("input", () =>{
     }
    
 });
+
 
 
 
