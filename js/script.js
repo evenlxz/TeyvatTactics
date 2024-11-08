@@ -701,18 +701,20 @@ function buildTable(){
             const image = document.createElement("img")
             const element = document.createElement("img");
 
-            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; text-align:center; justify-content: center; width: 10rem;"
+            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; text-align:center; justify-content: center; width: 7rem;"
             card.setAttribute("href", character.guideSrc);
+            card.setAttribute("id", character.name);
+
 
             element.setAttribute("src", "elementIcons/" + character.element.toLowerCase() +".png");
             element.style = "position: absolute; top:  0%; left: 0%; width: 2rem;"
 
-            name.style = "width: 100%; text-align: center; font-size: 1.3rem;  color:black; font-weight: 700;"
+            name.style = "width: 100%; text-align: center; font-size: 1.3rem;  color:black; font-weight: 500;"
             //name.classList.add("bg-" + character.element.toLowerCase());
             name.innerHTML = character.name;
 
             image.setAttribute("src", character.src);
-            image.style= "display: flex; justify-content: center; width: 100%; border: 1px solid black;"
+            image.style= "display: flex; justify-content: center; width: 100%;"
             
             if(character.rarity == 5){
                 image.style.background = "linear-gradient(135deg, #f4d03f, #b9842f)";
@@ -743,6 +745,135 @@ function buildTable(){
     }
 }
 //SEARCH FUNCTION
+const pyroButton = document.getElementById("pyroButton");
+let pyroClicked = false;
+const hydroButton = document.getElementById("hydroButton");
+let hydroClicked = false;
+const electroButton = document.getElementById("electroButton");
+let electroClicked = false;
+const anemoButton = document.getElementById("anemoButton");
+let anemoClicked = false;
+const dendroButton = document.getElementById("dendroButton");
+let dendroClicked = false;
+const geoButton = document.getElementById("geoButton");
+let geoClicked = false;
+const cryoButton = document.getElementById("cryoButton");
+let cryoClicked = false;
+
+function toggleAll(inQuestion){
+    for(i = 0; i < elements.length; i++ ){
+
+    }
+}
+pyroButton.addEventListener("click", function(){
+    
+    pyroButton.classList.toggle("bg-gray-200");
+    if(pyroClicked = false){
+        pyroClicked = true;
+        cryoClicked = false;
+        dendroclicked = false;
+        electroClicked = false;
+        geoClicked = false;
+        hydroClicked = false;
+        anemoClicked = false
+    }else{
+        pyroClicked = false;
+    }
+    
+});
+anemoButton.addEventListener("click", function(){
+    
+    anemoButton.classList.toggle("bg-gray-200");
+    if(anemoClicked = false){
+        pyroClicked = false;
+        cryoClicked = false;
+        dendroclicked = false;
+        electroClicked = false;
+        geoClicked = false;
+        hydroClicked = true;
+        anemoClicked = false
+    }else{
+        anemoClicked = false;
+    }
+    
+});
+hydroButton.addEventListener("click", function(){
+    hydroButton.classList.toggle("bg-gray-200");
+    if(hydroClicked = false){
+        pyroClicked = false;
+        cryoClicked = false;
+        dendroclicked = false;
+        electroClicked = false;
+        geoClicked = false;
+        hydroClicked = true;
+        anemoClicked = false
+        
+    }else{
+        hydroClicked = false;
+    }
+    
+});
+geoButton.addEventListener("click", function(){
+    geoButton.classList.toggle("bg-gray-200");
+    if(geoClicked = false){
+        pyroClicked = false;
+        cryoClicked = false;
+        dendroclicked = false;
+        electroClicked = false;
+        geoClicked = true;
+        hydroClicked = false;
+        anemoClicked = false
+    }else{
+        geoClicked = false;
+    }
+    
+});
+electroButton.addEventListener("click", function(){
+    electroButton.classList.toggle("bg-gray-200");
+    if(electroClicked = false){
+        pyroClicked = false;
+        cryoClicked = false;
+        dendroclicked = false;
+        electroClicked = true;
+        geoClicked = false;
+        hydroClicked = false;
+        anemoClicked = false
+    }else{
+        electroClicked = false;
+    }
+    
+});
+cryoButton.addEventListener("click", function(){
+    cryoButton.classList.toggle("bg-gray-200");
+    if(cryoClicked = false){
+        pyroClicked = false;
+        cryoClicked = true;
+        dendroclicked = false;
+        electroClicked = false;
+        geoClicked = false;
+        hydroClicked = false;
+        anemoClicked = false
+    }else{
+        cryoClicked = false;
+    }
+    
+});
+dendroButton.addEventListener("click", function(){
+    dendroButton.classList.toggle("bg-gray-200");
+    if(dendroClicked = false){
+        pyroClicked = false;
+        cryoClicked = false;
+        dendroclicked = true;
+        electroClicked = false;
+        geoClicked = false;
+        hydroClicked = false;
+        anemoClicked = false
+
+    }else{
+        dendroClicked = false;
+    }
+    
+});
 const searchBar = document.getElementById("searchBar");
 searchBar.addEventListener("input", () =>{
     const text = document.getElementById("searchBar").value;

@@ -2,7 +2,7 @@ const navbar = document.createElement("nav");
 const mobileNav = document.createElement("nav")
 const anchor = document.getElementById("navbar");
 navbar.innerHTML = `
-  <nav id="navbar" class="fixed top-0 h-16 flex z-10 flex-row justify-between items-center bg-neutral-800 text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
+  <nav id="navbar" class="fixed top-0 h-16 flex z-10 flex-row justify-between items-center bg-black text-white border-b border-neutral-900 shadow w-full px-6 sm:px-10 lg:px-20">
     <div class="flex items-center justify-start">
       <img class="h-16 w-16 ms-2" src="/characterIcons/dehyaEmoji.webp" alt="Dehya Emoji">
       <a href="#top" class="flex justify-start h-full text-3xl font-bold me-3" style="font-family: 'Cinzel', serif;">TeyvatTactics</a>
@@ -29,7 +29,7 @@ navbar.innerHTML = `
 `;
 
 mobileNav.innerHTML = `
-<nav id="mobileNav" class="menu-items bg-neutral-900 lg:hidden flex flex-col justify-start gap-2 fixed top-16 left-0 z-10 w-full text-lg text-white overflow-y-auto">
+<nav id="mobileNav" class="menu-items bg-neutral-900 lg:hidden flex flex-col justify-start gap-2 fixed top-16 left-0 z-10 w-full text-lg text-white overflow-y-auto hidden">
   <!-- First Row of Links -->
   <div class="flex flex-row justify-center items-center w-full gap-2 px-2 pt-2">
     <a href="/index.html" class="flex justify-center items-center text-white   p-5 h-14 w-full text-center bg-neutral-700 hover:bg-neutral-600">Home</a>
