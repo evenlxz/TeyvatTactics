@@ -45,23 +45,32 @@
             </div>
 
             <!--Middle Col-->
-            <div class="flex flex-col flex-grow w-10/12 text-center min-h-full bg-gray-100 ">
+            <div class="flex flex-col flex-grow w-10/12 text-center min-h-full bg-gray-100">
 
                 <!--Search Function-->
-                <div class="flex flex-col text-lg p-3 w-2/5 items-center mx-auto rounded-md">
-                    <p class="bold text-2xl p-2 w-full font-semibold text-gray-700">Search Characters</p>
-                    <input class="h-12 w-3/4 p-1 rounded-md border border-gray-500 focus:border-blue-300 outline-none" id="searchBar" name = "searchBar" type="search" placeholder="Search">
-                    <div class="flex flex-row pt-2">
-                        <button><img id="anemoButton" class="w-12 mx-1 hover:bg-gray-200 focus:bg-gray-200 rounded-sm p-1" src="/elementIcons/anemo.png" alt="Anemo"></button>
-                        <button><img id="cryoButton" class="w-12 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/cryo.png" alt="Cryo"></button>
-                        <button><img id="dendroButton" class="w-12 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/dendro.png" alt="dendro"></button>
-                        <button><img id="electroButton" class="w-12 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/electro.png" alt="Electro"></button>                        
-                        <button><img id="geoButton" class="w-12 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/geo.png" alt="Geo"></button>
-                        <button><img id="hydroButton" class="w-12 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/hydro.png" alt="Hydro"></button>
-                        <button><img id="pyroButton" class="w-12 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/pyro.png" alt="Pyro"></button>
+                <div class="flex flex-col text-lg p-3 lg:w-3/5 w-3/5 items-center mx-auto rounded-md bg-gray-100 m-2">
+                    <p class="bold text-2xl p-2 w-full font-semibold text-black">Characters</p>
+                    <input class="h-12 w-3/4 p-1 rounded-md border-2 border-gray-500 focus:border-blue-300 outline-none" autocomplete="off"id="searchBar" name = "searchBar" type="search" placeholder="Search">
+                    <div class="flex flex-col">
+                        <div class="flex flex-row pt-2">
+                            <button><img id="anemoButton" data-element="anemo" class="md:w-12 w-32 mx-1 hover:bg-gray-200 focus:bg-gray-200 rounded-sm p-1" src="/elementIcons/anemo.png" alt="Anemo"></button>
+                            <button><img id="cryoButton" data-element="cryo" class="md:w-12 w-32 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/cryo.png" alt="Cryo"></button>
+                            <button><img id="dendroButton"data-element="dendro" class="md:w-12 w-32 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/dendro.png" alt="dendro"></button>
+                            <button><img id="electroButton"data-element="electro" class="md:w-12 w-24 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/electro.png" alt="Electro"></button>                        
+                            <button><img id="geoButton"data-element="geo" class="md:w-12 w-32 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/geo.png" alt="Geo"></button>
+                            <button><img id="hydroButton"data-element="hydro" class="md:w-12 w-32 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/hydro.png" alt="Hydro"></button>
+                            <button><img id="pyroButton"data-element="pyro" class="md:w-12 w-32 mx-1 hover:bg-gray-200 rounded-sm p-1" src="/elementIcons/pyro.png" alt="Pyro"></button>
+                        </div>
+                        <div class="flex flex-row pt-2 justify-start">
+                            <button><img id="fourStar" data-element="four" class="flex justify-start mx-1 w-12 hover:bg-gray-200 rounded-sm p-1 text-purple-500" alt="fourStar" src="miscImages/purple-star.png"> </button>
+                            <button><img id="fiveStar" data-element="five" class="mx-1 w-12 hover:bg-gray-200 rounded-sm p-1 text-gold-500" alt="fiveStar" src="miscImages/gold-star.png"> </button>
+    
+                            
+                        </div>
                     </div>
+             
                 </div>
-                <div id="characterCardsGrid" class="flex flex-wrap gap-2 p-3 justify-center">
+                <div id="characterCardsGrid" class="flex flex-wrap gap-2 p-3 bg-white mx-10">
                     <!--Cards-->
 
                                 
