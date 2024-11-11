@@ -701,7 +701,7 @@ function buildTable(){
             const image = document.createElement("img")
             const element = document.createElement("img");
 
-            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; text-align:center; border-radius: 1rem; justify-content: center; margin: 0.7rem; width: 6rem;"
+            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; border-radius: 1rem; margin: auto; width: 6rem;"
             card.setAttribute("href", character.guideSrc);
             card.setAttribute("id", character.name);
 
@@ -709,7 +709,7 @@ function buildTable(){
             element.setAttribute("src", "elementIcons/" + character.element.toLowerCase() +".png");
             element.style = "position: absolute; top:  0%; left: 0%; width: 2rem;"
 
-            name.style = "width: 100%; text-align: center; font-size: 1.0rem;  color:black; font-weight: 700;"
+            name.style = "width: 100%; font-size: 1.0rem;  color:black; font-weight: 700;"
             //name.classList.add("bg-" + character.element.toLowerCase());
             name.innerHTML = character.name;
 
