@@ -701,7 +701,7 @@ function buildTable(){
             const image = document.createElement("img")
             const element = document.createElement("img");
 
-            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; border-radius: 1rem; margin: auto; width: 6rem;"
+            card.style = "display: flex; flex-direction: column; position: relative; font-family:sans-serif; border-radius: 1rem;"
             card.setAttribute("href", character.guideSrc);
             card.setAttribute("id", character.name);
 
@@ -714,7 +714,7 @@ function buildTable(){
             name.innerHTML = character.name;
 
             image.setAttribute("src", character.src);
-            image.style= "display: flex; justify-content: center; width: 100%; border-radius: 1rem;"
+            image.style= "display: flex; margin:auto; width: 100%; border-radius: 1rem; border: 1px black solid;"
             
             if(character.rarity == 5){
                 image.style.background = "linear-gradient(135deg, #f4d03f, #b9842f)";
