@@ -23,7 +23,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-aloy.png",
         element: "Cryo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         guideSrc: "characterGuides/AloyGuide.html",
 
         rarity: 5
@@ -33,7 +33,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-ambor.png",
         element: "Pyro",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -41,7 +41,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-itto.png",
         element: "Geo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -49,7 +49,7 @@ const characters = [
         src: "characterIcons/ui-avatarIcon-arlecchino.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -57,7 +57,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-baizhuer.png",
         element: "Dendro",
         roles: [ "Healer", "Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -65,7 +65,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-barbara.png",
         element: "Hydro",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
 
@@ -74,7 +74,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-beidou.png",
         element: "Electro",
         roles: ["DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -82,7 +82,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-bennett.png",
         element: "Pyro",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -90,7 +90,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-candace.png",
         element: "Hydro",
         roles: ["Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -98,7 +98,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-charlotte.png",
         element: "Cryo",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -106,7 +106,7 @@ const characters = [
         src: "characterIcons/Chevreuse_Icon.webp",
         element: "Pyro",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -114,7 +114,7 @@ const characters = [
         src: "characterIcons/Chiori_Icon.webp",
         element: "Geo",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -122,7 +122,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-chongyun.png",
         element: "Cryo",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
 
     },
@@ -131,7 +131,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-collei.png",
         element: "Dendro",
         roles: ["Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -139,7 +139,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-cyno.png",
         element: "Electro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -147,7 +147,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-barbara.png",
         element: "Hydro",
         roles: ["Support", "DPS", "On-Field", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -155,7 +155,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-diluc.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -163,7 +163,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-diona.png",
         element: "Cryo",
         roles: ["Healer", "Shielder", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
 
@@ -172,7 +172,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-dori.png",
         element: "Electro",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -180,7 +180,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-eula.png",
         element: "Cryo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -188,7 +188,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-faruzan.png",
         element: "Anemo",
         roles: ["Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -196,7 +196,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-fischl.png",
         element: "Electro",
         roles: ["DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -204,7 +204,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-freminet.png",
         element: "Cryo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -212,7 +212,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-furina.png",
         element: "Hydro",
         roles: ["Support", "DPS", "Off-Field", "Healer"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -220,7 +220,7 @@ const characters = [
         src: "characterIcons/UI_AvatarIcon_Gaming.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -228,7 +228,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-ganyu.png",
         element: "Cryo",
         roles: ["DPS", "On-Field", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -236,7 +236,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-gorou.png",
         element: "Geo",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -244,7 +244,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-hutao.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -252,7 +252,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-qin.png",
         element: "Anemo",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -260,7 +260,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-kazuha.png",
         element: "Anemo",
         roles: ["Grouper", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -268,7 +268,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-kaeya.png",
         element: "Cryo",
         roles: ["DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -276,7 +276,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-ayaka.png",
         element: "Cryo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -284,7 +284,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-ayato.png",
         element: "Hydro",
         roles: ["DPS", "On-Field", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -292,7 +292,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-kaveh.png",
         element: "Dendro",
         roles: ["Support", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -300,7 +300,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-keqing.png",
         element: "Electro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -308,7 +308,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-momoka.png",
         element: "Dendro",
         roles: ["Shielder", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -316,7 +316,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-klee.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -324,7 +324,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-sara.png",
         element: "Electro",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
    
@@ -333,7 +333,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-shinobu.png",
         element: "Electro",
         roles: ["DPS", "Healer", "Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -341,7 +341,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-layla.png",
         element: "Cryo",
         roles: ["Shielder", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -349,7 +349,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-lisa.png",
         element: "Electro",
         roles: ["Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -357,7 +357,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-linette.png",
         element: "Anemo",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -365,7 +365,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-liney.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -373,7 +373,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-mika.png",
         element: "Cryo",
         roles: ["Healer", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -381,7 +381,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-mona.png",
         element: "Hydro",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -389,7 +389,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-nahida.png",
         element: "Dendro",
         roles: ["DPS", "Support", "On-Field", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -397,7 +397,7 @@ const characters = [
         src: "characterIcons/Navia_Icon.webp",
         element: "Geo",
         roles: ["On-Field", "DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -405,7 +405,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-neuvillette.png",
         element: "Hydro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -413,7 +413,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-nilou.png",
         element: "Hydro",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -421,7 +421,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-ningguang.png",
         element: "Geo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -429,7 +429,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-noel.png",
         element: "Geo",
         roles: ["Sheilder",  "Healer", "DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -437,7 +437,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-qiqi.png",
         element: "Cryo",
         roles: ["Healer"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -445,7 +445,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-shougun.png",
         element: "Electro",
         roles: ["DPS", "Support",  "On-Field", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -453,7 +453,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-razor.png",
         element: "Electro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -461,7 +461,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-rosaria.png",
         element: "Cryo",
         roles: ["DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -469,7 +469,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-kokomi.png",
         element: "Hydro",
         roles: ["Healer", "DPS", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -477,7 +477,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-sayu.png",
         element: "Anemo",
         roles: ["Healer"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -485,7 +485,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-shenhe.png",
         element: "Cryo",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -493,7 +493,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-heizo.png",
         element: "Anemo",
         roles: ["DPS", "Support", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -501,7 +501,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-sucrose.png",
         element: "Anemo",
         roles: ["Support", "Grouper"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -509,7 +509,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-tartaglia.png",
         element: "Hydro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -517,7 +517,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-tohma.png",
         element: "Pyro",
         roles: ["Shielder" , "Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -525,7 +525,7 @@ const characters = [
         src: "characterIcons/Aether_Icon.webp",
         element: "Anemo",
         roles: [ "Grouper", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -533,7 +533,7 @@ const characters = [
         src: "characterIcons/Aether_Icon.webp",
         element: "Geo",
         roles: ["DPS", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -541,7 +541,7 @@ const characters = [
         src: "characterIcons/Aether_Icon.webp",
         element: "Electro",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -549,7 +549,7 @@ const characters = [
         src: "characterIcons/Aether_Icon.webp",
         element: "Dendro",
         roles: ["Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -557,7 +557,7 @@ const characters = [
         src: "characterIcons/Aether_Icon.webp",
         element: "Hydro",
         roles: ["DPS"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -565,7 +565,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-venti.png",
         element: "Anemo",
         roles: ["Grouper", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -573,7 +573,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-wanderer.png",
         element: "Anemo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -581,7 +581,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-wriothesley.png",
         element: "Cryo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -589,7 +589,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-xiangling.png",
         element: "Pyro",
         roles: ["DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -597,7 +597,7 @@ const characters = [
         src: "characterIcons/UI_AvatarIcon_Liuyun.png",
         element: "Anemo",
         roles: ["Support", "Healer"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -605,7 +605,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-xiao.png",
         element: "Anemo",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -613,7 +613,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-xingqiu.png",
         element: "Hydro",
         roles: ["DPS", "Support","Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -621,7 +621,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-xinyan.png",
         element: "Pyro",
         roles: ["Shield", "Support", "DPS"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -629,7 +629,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-yae.png",
         element: "Electro",
         roles: ["DPS", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -637,7 +637,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-feiyan.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
 
     },
@@ -646,7 +646,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-yaoyao.png",
         element: "Dendro",
         roles: ["Healer", "Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -654,7 +654,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-yelan.png",
         element: "Hydro",
         roles: ["DPS", "Support", "Off-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -662,7 +662,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-yoimiya.png",
         element: "Pyro",
         roles: ["DPS", "On-Field"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     },
     {
@@ -670,7 +670,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-yunjin.png",
         element: "Geo",
         roles: ["Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 4
     },
     {
@@ -678,7 +678,7 @@ const characters = [
         src: "characterIcons/ui-avataricon-zhongli.png",
         element: "Geo",
         roles: ["Shield", "Support"],
-        guideCompleted: "true",
+        guideCompleted: "false",
         rarity: 5
     }, 
 ];
@@ -709,25 +709,25 @@ function buildTable(){
             element.setAttribute("src", "elementIcons/" + character.element.toLowerCase() +".png");
             element.style = "position: absolute; top:  0%; left: 0%; width: 2rem;"
 
-            name.style = "width: 100%; font-size: 1.0rem;  color:black; font-weight: 700;"
+            name.style = "width: 100%; font-size: 1.0rem;  color:white; font-weight: 500;"
             //name.classList.add("bg-" + character.element.toLowerCase());
             name.innerHTML = character.name;
 
             image.setAttribute("src", character.src);
-            image.style= "display: flex; margin:auto; width: 100%; border-radius: 1rem; border: 1px black solid;"
+            image.style= "display: flex; margin:auto; width: 100%; border-radius: 1rem;"
             
             if(character.rarity == 5){
-                image.style.background = "linear-gradient(135deg, #f4d03f, #b9842f)";
+                image.style.background ="linear-gradient(180deg, rgba(209,150,11,1) 27%, rgba(235,196,0,1) 100%)";
             } else{
-                image.style.background = "linear-gradient(135deg, #9b59b6, #8e44ad)";
+                image.style.background = "linear-gradient(180deg, rgba(85,36,100,1) 27%, rgba(172,25,181,1) 100%)";
+                
             }
-            image.addEventListener("mouseover", function () {
-                image.style.borderColor = "gold";
-            });
-            image.addEventListener("mouseout", function () {
-                image.style.borderColor = "black";
-            });
-            //card.appendChild(name);
+            // image.addEventListener("mouseover", function () {
+            //     image.style.borderColor = "gold";
+            // });
+            // image.addEventListener("mouseout", function () {
+            //     image.style.borderColor = "black";
+            // });
             card.appendChild(image);
             card.appendChild(name);
             card.appendChild(element);
@@ -751,15 +751,15 @@ const elementButtons = [
 elementButtons.forEach(function(button) {
     button.addEventListener("click", function() {
         elementButtons.forEach(function(btn) {
-            btn.classList.remove("bg-gray-200");
+            btn.classList.remove("bg-neutral-600");
         });
         if(button.getAttribute("data-element") == activeElement){
             activeElement = null;
-            button.classList.remove("bg-gray-200")
+            button.classList.remove("bg-neutral-600")
             sort();
 
         } else{
-            button.classList.add("bg-gray-200");
+            button.classList.add("bg-neutral-600");
             activeElement = button.getAttribute("data-element");
             //alert(activeElement);
             sort();
